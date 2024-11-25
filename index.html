@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kivi Kealth</title>
     <!-- FONT FAMILY CDN -->
-    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Calistoga&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
 
     <!-- ICONS CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+
+    <!-- SLICK SLIDER CDN -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
     <!-- TAILWIND CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -21,15 +26,16 @@
           .dm-sans{ font-family: "DM Sans", sans-serif;}
           .calistoga{font-family: "Calistoga", serif;}
           .common-bg{background: rgb(23,153,195);background: linear-gradient(180deg, rgba(23,153,195,1) 5%, rgba(13,112,145,1) 81%, rgba(8,96,124,1) 94%);}
+          .common-bg2{background: rgb(23,153,195);background: linear-gradient(180deg, rgba(23,153,195,0.25) 5%, rgba(13,112,145,0.25) 81%, rgba(8,96,124,0.25) 94%);}
           .common-color{color: #0B6F8F;}
         }
       </style>
 </head>
 
 <body>
-    <!-- <main> -->
+    <main>
         <!-- HEADER & BANNER SECTION -->
-        <section class="h-screen relative common-bg rounded-3xl ">
+        <section class="h-screen relative common-bg rounded-b-3xl ">
             <img src="assets/images/Line 1.png" class="absolute  left-[192px]" alt="line">
             <img src="assets/images/Line 2.png" class="absolute  left-[384px]" alt="line">
             <img src="assets/images/Line 3.png" class="absolute  left-[576px]" alt="line">
@@ -53,18 +59,161 @@
                         <li><a class="dm-sans text-[20px] text-gray-400" href="">Blogs</a></li>
                     </ul>
                     <div class="contact-btn">
-                        <button class="px-[24px] dm-sans common-bg px-[24px] py-[12px] rounded-full text-white">Contact Us <i class="fa-solid ms-3 fa-arrow-right-long"></i></button>
+                        <button class="px-[24px] dm-sans common-bg px-[24px] py-[12px] rounded-full text-white">Contact
+                            Us <i class="fa-solid ms-3 fa-arrow-right-long"></i></button>
                     </div>
                 </div>
             </header>
             <div class="banner text-center">
-                <h1 class="text-[60px] calistoga text-white  pt-[80px] ">Advanced Clinic Management Software <br>For Your Medical Practice</h1>
-                <button class="px-[24px] dm-sans border-white border-2 mt-[30px]  px-[24px] py-[12px] rounded-full text-white">Contact Us <i class="fa-solid ms-3 fa-arrow-right-long"></i></button>
+                <h1 class="text-[60px] calistoga text-white  pt-[80px] ">Advanced Clinic Management Software <br>For
+                    Your Medical Practice</h1>
+                <button
+                    class="px-[24px] dm-sans border-white border-2 mt-[30px]  px-[24px] py-[12px] rounded-full text-white">Contact
+                    Us <i class="fa-solid ms-3 fa-arrow-right-long"></i></button>
                 <img src="assets/images/banner.png" class="m-auto pt-[72px]" alt="">
             </div>
         </section>
-    <!-- </main> -->
+        <!-- HEADER & BANNER SECTION OVER -->
+
+        <!-- PROMOTION SECTION START  -->
+        <section class="py-[160px]">
+            <div class="container m-auto">
+                <div class="flex">
+                    <div class="w-2/4">
+                        <div class="promotion-content md:w-11/12">
+                            <h2 class="text-[40px]  calistoga common-bg mb-2.5"
+                                style="-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Download Our
+                                Home Cleaning & Service App</h2>
+                            <p class="text-neutral-400  text-xl dm-sans">It is a long established fact that a reader
+                                will
+                                be distracted by the readable content of a page.</p>
+                            <div class="service-numbers flex mt-[20px]">
+                                <div class="own-services pr-[80px] border-r-[2px] border-[rgba(14,117,150,0.1)]">
+                                    <h2 class="text-[40px] calistoga text-[#333333]">5000+</h2>
+                                    <p class="text-neutral-400  text-xl dm-sans">Services</p>
+                                </div>
+                                <div class="own-services ps-[80px]">
+                                    <h2 class="text-[40px] calistoga text-[#333333]">60+</h2>
+                                    <p class="text-neutral-400  text-xl dm-sans">Countries</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-2/4">
+                        <div class="flex">
+                            <div class="w-2/4  relative calistoga px-[10px] ">
+                                <div class="ios p-[30px] bg-[#F9F9F9]  rounded-3xl">
+                                    <h3 class="text-[30px] common-color font-medium ">For Ios</h3>
+                                    <p class="text-neutral-400 text-xl dm-sans">Ios 15.6+</p>
+                                    <button
+                                        class="px-[24px] dm-sans common-bg my-[30px] px-[24px] py-[12px] rounded-full text-white">Download
+                                        App</button>
+                                    <div
+                                        class="scanner bg-white flex justify-center items-center rounded-2xl w-[100px] h-[100px]">
+                                        <img src="assets/images/scanner.png" alt="">
+                                    </div>
+                                    <div
+                                        class="apple-icon bg-white rounded-full flex justify-center items-center absolute right-[-20px] bottom-[-20px] md:w-[148px] md:h-[148px] w-[50px] h-[50px ]">
+                                        <img src="assets/images/Icons/ios.png" alt="ios">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-2/4  relative calistoga px-[10px] ">
+                                <div class="ios p-[30px] bg-[#F9F9F9]  rounded-3xl">
+                                    <h3 class="text-[30px] common-color font-medium ">For Android</h3>
+                                    <p class="text-neutral-400 text-xl dm-sans">Android 8.0+</p>
+                                    <button
+                                        class="px-[24px] dm-sans common-bg my-[30px] px-[24px] py-[12px] rounded-full text-white">Download
+                                        App</button>
+                                    <div
+                                        class="scanner bg-white flex justify-center items-center rounded-2xl w-[100px] h-[100px]">
+                                        <img src="assets/images/scanner.png" alt="">
+                                    </div>
+                                    <div
+                                        class="apple-icon bg-white rounded-full flex justify-center items-center absolute right-[-20px] bottom-[-20px] md:w-[148px] md:h-[148px] w-[50px] h-[50px ]">
+                                        <img src="assets/images/Icons/Android.png" alt="Android">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- PROMOTION SECTION END -->
+
+        <!-- SPECIALITY SECTION START -->
+        <section class="common-bg2 py-[80px] relative  rounded-3xl ">
+            <img src="assets/images/Line 1.png" class="absolute top-[0px] left-[192px]" alt="line">
+            <img src="assets/images/Line 2.png" class="absolute top-[0px] left-[384px]" alt="line">
+            <img src="assets/images/Line 3.png" class="absolute top-[0px] left-[576px]" alt="line">
+            <img src="assets/images/Line 4.png" class="absolute top-[0px] left-[768px]" alt="line">
+            <img src="assets/images/Line 5.png" class="absolute top-[0px] left-[960px]" alt="line">
+            <img src="assets/images/Line 6.png" class="absolute top-[0px] left-[1152px]" alt="line">
+            <img src="assets/images/Line 7.png" class="absolute top-[0px] left-[1344px]" alt="line">
+            <img src="assets/images/Line 8.png" class="absolute top-[0px] left-[1536px]" alt="line">
+            <img src="assets/images/Line 9.png" class="absolute top-[0px] left-[1728px]" alt="line">
+            <div class="container m-auto pb-[50px]">
+                <div class="speciality-heading flex justify-between items-center pb-[50px]">
+                    <h2 class="text-[40px] calistoga common-bg mb-2.5"
+                        style="-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Discover What
+                        KiviHealth Can Do For Your <br> Speciality</h2>
+                    <button class="px-[24px] dm-sans common-bg px-[24px] py-[12px] rounded-full text-white">Contact
+                        Us <i class="fa-solid ms-3 fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+            <div class="speciality-slider">
+                <div class="item common-bg p-[30px] rounded-2xl">
+                    <div class="w-[70px] flex items-center h-[70px] bg-[rgba(255,255,255,0.1)] rounded-xl p-[14px]">
+                        <img src="assets/images/Icons/Physician.png" alt="Physician">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- JQUERY CDN -->
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <!-- SLICK SLIDER CDN -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+       $('.speciality-slider').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
+    </script>
 </body>
 
 </html>
