@@ -62,3 +62,4 @@ $('.process-slider').slick({
         },
     ]
 });
+
