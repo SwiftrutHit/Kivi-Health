@@ -62,4 +62,4 @@ $('.process-slider').slick({
         },
     ]
 });
-
+// accordian js
