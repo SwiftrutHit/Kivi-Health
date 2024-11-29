@@ -5,6 +5,7 @@ h2{font-family: "Calistoga", serif;}
 .dm-sans{ font-family: "DM Sans", sans-serif;}
 .calistoga{font-family: "Calistoga", serif;}
 .common-bg{background: rgb(23,153,195);background: linear-gradient(180deg, rgba(23,153,195,1) 5%, rgba(13,112,145,1) 81%, rgba(8,96,124,1) 94%);}
+button.common-bg:hover{background: rgb(23,153,195);background: linear-gradient(260deg, rgba(23,153,195,1) 5%, rgba(13,112,145,1) 81%, rgba(8,96,124,1) 94%);}
 .common-bg2{background: rgb(23,153,195);background: linear-gradient(180deg, rgba(23,153,195,0.10) 5%, rgba(13,112,145,0.10) 81%, rgba(8,96,124,0.10) 94%);}
 .common-color{color: #0B6F8F;}
 
@@ -17,6 +18,15 @@ h2{font-family: "Calistoga", serif;}
 .speciality-slider .item.slick-current p{color: white }
 .speciality-slider .item.slick-current button{color: white }
 .speciality-slider .item.slick-current {color: white !important; }
+/* .index-banner::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/lines.png');
+} */
 .process::after{
   content: "";
   position: absolute;
@@ -64,7 +74,7 @@ height: 72px;
   background-image: url(../images/slick-next.png);
   background-size: 85%;
   background-repeat: no-repeat;
-  background-position: 42% 0
+  background-position: 48% 0
 }
 .swiper-button-next::after{
   color: white;
@@ -78,3 +88,21 @@ height: 72px;
   display: none;
 }
 .single-open .panel.active .panel-content {display: block;}
+.faq-item.active{border: 1px solid #10799B;}
+.faq-item.active .faq-question{color: black;}
+.faq-item.active .arrow{
+  color: white;
+  background: rgb(23,153,195);background: linear-gradient(180deg, rgba(23,153,195,1) 5%, rgba(13,112,145,1) 81%, rgba(8,96,124,1) 94%);}
+
+
+  .menu-hover::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #0B6F8F;
+    border-radius: 50%;
+    bottom: -15px;
+    left: 47%;
+
+  }

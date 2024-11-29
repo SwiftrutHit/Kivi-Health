@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kivi Kealth</title>
+    <!-- FONT FAMILY CDN -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Calistoga&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+    <!-- ICONS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+    <!-- SLIDER CDN -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- COMMON CSS -->
+    <link rel="stylesheet" href="assets/css/common.css" class="rel">
+    <!-- TAILWIND CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<main>
+    <!-- HEADER & BANNER SECTION -->
+    <section class="lg:h-screen md:h-[800px] sm:h-[500px] h-[400px] relative common-bg rounded-b-3xl  z-50">
+        <!-- HEADER -->
+        <div class="container m-auto">
+            <header class=" pt-[15px]">
+                <nav class="mx-auto bg-white rounded-full flex  items-center justify-between p-6 lg:px-8" aria-label="Global">
+                  <div class="flex lg:flex-1">
+                    <a href="#" class="-m-1.5 p-1.5">
+                      <span class="sr-only">Your Company</span>
+                      <img class="h-8 w-auto" src="assets/images/logo.png" alt="">
+                    </a>
+                  </div>
+                  <div class="flex lg:hidden">
+                    <button type="button" id="hamburgerButton" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                      <span class="sr-only">Open main menu</span>
+                      <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="hidden lg:flex lg:gap-x-12">
+                    <ul class="flex gap-6">
+                        <li><a class="dm-sans text-[20px] text-gray-400" href="index.html">Home</a></li>
+                        <li><a class="dm-sans text-[20px] text-gray-400" href="">About Us</a></li>
+                        <li><a class="dm-sans text-[20px] text-gray-400" href="FAQs.html">FAQ's</a></li>
+                        <li><a class="dm-sans text-[20px] text-gray-400" href="Speciality.html">Speciality</a></li>
+                        <li><a class="dm-sans text-[20px] common-color font-bold" href="Blogs.html">Blogs</a></li>
+                    </ul>
+                  </div>
+                  <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+                    <div class="contact-btn">
+                        <button class="lg:px-[24px] px-[12px] dm-sans common-bg lg:px-[24px] px-[12px] lg:py-[12px] py-[6px]  rounded-full text-white">
+                        Contact Us <i class="fa-solid ms-3 fa-arrow-right-long"></i></button>
+                    </div>
+                  </div>
+                </nav>
+                <!-- Mobile Version -->
+                <div id="mobileSidebar" class="hidden" role="dialog" aria-modal="true">
+                  <div class="fixed inset-0 z-10"></div>
+                  <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                    <div class="flex items-center justify-between">
+                      <a href="#" class="-m-1.5 p-1.5">
+                        <span class="sr-only">Your Company</span>
+                        <img class="h-8 w-auto" src="assets/images/logo.png" alt="logo">
+                      </a>
+                      <button type="button" id="closeButton" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                        <span class="sr-only">Close menu</span>
+                        <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                      </button>
+                    </div>
+                    <div class="mt-6 flow-root">
+                      <div class="-my-6 divide-y divide-gray-500/10">
+                        <div class="space-y-2 py-6">
+                          <div class="-mx-3">
+                          <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Home</a>
+                          <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">About Us</a>
+                          <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">FAQs</a>
+                          <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Speciality</a>
+                          <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Blogs</a>
+                        </div>
+                        <div class="py-6">
+                            <div class="contact-btn">
+                                <button class="lg:px-[24px] px-[12px] dm-sans common-bg lg:px-[24px] px-[12px] lg:py-[12px] py-[6px]  rounded-full text-white">
+                                Contact Us <i class="fa-solid ms-3 fa-arrow-right-long"></i></button>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </header>
+              
+
+
+
+
+
+        </div>
+        <div
+            class="banner lg:ps-[150px] md:ps-[100px] ps-[30px] md:pt-[250px] pt-[100px]  flex items-center justify-start ">
+            <div class="banner-content">
+                <p class="md:text-[20px] text-[14px] text-white dm-sans text-bold">Home | <span>Contact Us </span></p>
+                <h1 class="md:text-[70px] text-[40px] calistoga text-white md:mb-[30px] mb-[15px]">Contact Us </h1>
+                <div class="questionss flex gap-4">
+                    <h4 class="md:text-[26px] text-[18px] text-white font-medium">Get In Touch With Us </h4>
+                    <img src="./assets/images/Vector.png" class="md:w-[auto] w-[20%]" alt="beat">
+                </div>
+            </div>
+        </div>
+        <div class="banner-img absolute xl:right-[100px] lg:w-[auto] w-[60%] right-[0px] bottom-[0px]">
+            <img src="./assets/images/FAQ-banner.png" alt="banner">
+        </div>
+    </section>
+    <!-- HEADER & BANNER SECTION OVER -->
+
+</main>
+
+
+
+<!-- JQUERY CDN -->
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<!-- SLICK SLIDER CDN -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./assets/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+   $(document).ready(function() {
+  // When the hamburger button is clicked
+  $("#hamburgerButton").click(function() {
+    // Show the mobile sidebar
+    $("#mobileSidebar").removeClass("hidden");
+  });
+
+  // When the close button is clicked
+  $("#closeButton").click(function() {
+    // Hide the mobile sidebar
+    $("#mobileSidebar").addClass("hidden");
+  });
+});
+</script>
+</body>
+
+</html>
