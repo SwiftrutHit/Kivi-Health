@@ -37,7 +37,8 @@ button.common-bg:hover{background: rgb(23,153,195);background: linear-gradient(2
   height: 63%;
   background: rgb(23,153,195);background: linear-gradient(180deg, rgba(23,153,195,0.10) 5%, rgba(13,112,145,0.10) 81%, rgba(8,96,124,0.10) 94%);
 }
-
+.prescription{z-index: 11;}
+.prescription-img{z-index: 0;}
 /* HIDDEN CLASS FOR SLICK SLIDER CSS */
 .testimonials-slider .swiper-slide-active{
   padding: 72px;
@@ -104,5 +105,57 @@ height: 72px;
     border-radius: 50%;
     bottom: -15px;
     left: 47%;
+  }
+  .white-button:hover{
+    transition: all 0.4s linear;
+    background-color: white;
+    color: #0B6F8F;
+  }
+
+
+  .reveal{
+    position: relative;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      visibility: hidden;
+      overflow: hidden;
+  }
+  
+  .reveal img{
+      height: 100%;
+      width: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      -webkit-transform-origin: left;
+      transform-origin: left;
+  }
+  .footer-menu li:before{
+    position: absolute;
+    transition: all 0.4s linear;
+    content: "";
+    width: 0px;
+    height: 1px;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+  }
+  .footer-menu li:hover:before{
+    transition: all 0.3s linear;
+    width: 50%;
 
   }
+  .floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
