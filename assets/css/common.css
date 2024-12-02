@@ -159,3 +159,15 @@ height: 72px;
     65%  { transform: translate(0, 15px); }
     to   { transform: translate(0, -0px); }    
 }
+.special-item{transition: all 0.7s linear;}
+.special-item:hover{
+  transform: scale(1.04);
+  transition: all 0.4s linear;}
+.special-item:hover{background: rgb(23,153,195);background: linear-gradient(180deg, rgba(23,153,195,1) 5%, rgba(13,112,145,1) 81%, rgba(8,96,124,1) 94%);}
+.special-item:hover svg g path{fill: white !important; }
+.special-item:hover svg path{fill: white !important; }
+.special-item:hover h4{color: white }
+.special-item:hover .icon-box{background-color: rgb(255, 255, 255,0.1) !important }
+.special-item:hover p{color: white }
+.special-item:hover button{color: white }
+.special-item:hover {color: white !important; }
