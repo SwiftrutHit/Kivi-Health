@@ -29,89 +29,106 @@
 
 <main>
     <!-- HEADER & BANNER SECTION -->
-    <section class="lg:h-screen md:h-[800px] sm:h-[500px] h-[400px] relative common-bg rounded-b-3xl z-50">
+    <section class="lg:h-screen md:h-[800px] sm:h-[500px] h-[400px] relative common-bg3 rounded-b-3xl z-50">
         <!-- HEADER -->
          <div class="container m-auto">
             <header class="pt-[15px] mx-[12px] lg:mx-[0px]">
-                <nav class="mx-auto bg-white rounded-full flex  items-center justify-between p-6 lg:px-8" aria-label="Global">
-                  <div class="flex lg:flex-1">
-                    <a href="#" class="-m-1.5 p-1.5">
-                      <span class="sr-only">Your Company</span>
-                      <img class="h-8 w-auto" src="assets/images/logo.png" alt="">
-                    </a>
-                  </div>
-                  <div class="flex lg:hidden">
-                    <button type="button" id="hamburgerButton" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
-                      <span class="sr-only">Open main menu</span>
-                      <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                      </svg>
-                    </button>
-                  </div>
-                  <div class="hidden lg:flex lg:gap-x-12">
-                    <ul class="flex gap-6">
-                        <li><a class="dm-sans text-[20px] text-gray-400" href="index.html">Home</a></li>
-                        <li><a class="dm-sans text-[20px] text-gray-400" href="">About Us</a></li>
-                        <li><a class="dm-sans text-[20px] text-gray-400" href="FAQs.html">FAQ's</a></li>
-                        <li><a class="dm-sans text-[20px] text-gray-400" href="Speciality.html">Speciality</a></li>
-                        <li><a class="dm-sans text-[20px] relative menu-hover common-color font-bold" href="Blogs.html">Blogs</a></li>
-                    </ul>
-                  </div>
-                  <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <div class="contact-btn">
-                        <button class="lg:px-[24px] px-[12px] dm-sans common-bg lg:px-[24px] px-[12px] lg:py-[12px] py-[6px]  rounded-full text-white">
-                        Contact Us <i class="fa-solid ms-3 fa-arrow-right-long"></i></button>
+                <nav class="mx-auto bg-white rounded-full flex  items-center justify-between p-6 lg:px-8"
+                    aria-label="Global">
+                    <div class="flex lg:flex-1">
+                        <a href="#" class="-m-1.5 p-1.5">
+                            <span class="sr-only">Your Company</span>
+                            <a href="index.html"> <img class="md:w-auto w-[90px]  " src="assets/images/logo.png" alt=""></a>
+                        </a>
                     </div>
-                  </div>
+                    <div class="flex lg:hidden">
+                        <button type="button" id="hamburgerButton"
+                            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                            <span class="sr-only">Open main menu</span>
+                            <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" aria-hidden="true" data-slot="icon">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="hidden lg:flex lg:gap-x-12">
+                        <ul class="flex ">
+                            <li class="xl:pl-[50px] pl-[20px]"><a class="dm-sans text-[20px] text-gray-400"href="index.html">Home</a></li>
+                            <li class="xl:pl-[50px] pl-[20px]"><a class="dm-sans text-[20px] text-gray-400" href="aboutus.html">About Us</a></li>
+                            <li class="xl:pl-[50px] pl-[20px]"><a class="dm-sans text-[20px] text-gray-400" href="FAQs.html">FAQ's</a></li>
+                            <li class="xl:pl-[50px] pl-[20px]"><a class="dm-sans text-[20px] common-color relative menu-hover font-bold" href="Speciality.html">Speciality</a>
+                            </li>
+                            <li class="xl:pl-[50px] pl-[20px]"><a class="dm-sans text-[20px] text-gray-400" href="Blogs.html">Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+                        <div class="contact-btn">
+                            <button
+                                class="lg:px-[24px] px-[12px] dm-sans common-bg lg:px-[24px] px-[12px] lg:py-[12px] py-[6px]  rounded-full text-white">
+                                <a href="contactus.html">Contact Us</a> <i
+                                    class="fa-solid ms-3 fa-arrow-right-long"></i></button>
+                        </div>
+                    </div>
                 </nav>
                 <!-- Mobile Version -->
                 <div id="mobileSidebar" class="hidden" role="dialog" aria-modal="true">
-                  <div class="fixed inset-0 z-10"></div>
-                  <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-                    <div class="flex items-center justify-between">
-                      <a href="#" class="-m-1.5 p-1.5">
-                        <span class="sr-only">Your Company</span>
-                        <img class="h-8 w-auto" src="assets/images/logo.png" alt="logo">
-                      </a>
-                      <button type="button" id="closeButton" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-                        <span class="sr-only">Close menu</span>
-                        <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-                        </svg>
-                      </button>
-                    </div>
-                    <div class="mt-6 flow-root">
-                      <div class="-my-6 divide-y divide-gray-500/10">
-                        <div class="space-y-2 py-6">
-                          <div class="-mx-3">
-                          <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Home</a>
-                          <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">About Us</a>
-                          <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">FAQs</a>
-                          <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Speciality</a>
-                          <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Blogs</a>
+                    <div class="fixed inset-0 z-10"></div>
+                    <div
+                        class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                        <div class="flex items-center justify-between">
+                            <a href="#" class="-m-1.5 p-1.5">
+                                <span class="sr-only">Your Company</span>
+                                <img class="h-8 w-auto" src="assets/images/logo.png" alt="logo">
+                            </a>
+                            <button type="button" id="closeButton" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                                <span class="sr-only">Close menu</span>
+                                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                                </svg>
+                            </button>
                         </div>
-                        <div class="py-6">
-                            <div class="contact-btn">
-                                <button class="lg:px-[24px] px-[12px] dm-sans common-bg lg:px-[24px] px-[12px] lg:py-[12px] py-[6px]  rounded-full text-white">
-                                Contact Us <i class="fa-solid ms-3 fa-arrow-right-long"></i></button>
+                        <div class="mt-6 flow-root">
+                            <div class="-my-6 divide-y divide-gray-500/10">
+                                <div class="space-y-2 py-6">
+                                    <div class="-mx-3">
+                                        <a href="index.html"
+                                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold common-color hover:bg-gray-50">Home</a>
+                                        <a href="aboutus.html"
+                                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">About
+                                            Us</a>
+                                        <a href="FAQs.html"
+                                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">FAQs</a>
+                                        <a href="Speciality.html"
+                                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Speciality</a>
+                                        <a href="Blogs.html"
+                                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Blogs</a>
+                                    </div>
+                                    <div class="py-6">
+                                        <div class="contact-btn">
+                                            <button
+                                                class="lg:px-[24px] px-[12px] dm-sans common-bg lg:px-[24px] px-[12px] lg:py-[12px] py-[6px]  rounded-full text-white">
+                                                <a href="contactus.html">Contact Us</a> <i
+                                                    class="fa-solid ms-3 fa-arrow-right-long"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
-                </div>
-              </header> 
+            </header>
             <div class="banner mx-[12px] lg:mx-[0px]  md:pt-[250px] pt-[100px]  flex items-center justify-start ">
                 <div class="banner-content">
                     <p class="md:text-[20px] text-[14px] text-white dm-sans text-bold wow animate__animated animate__fadeInUp">Home | <span>Speciality</span></p>
-                    <h1 class="md:text-[70px] text-[40px] calistoga text-white md:mb-[30px] mb-[15px] wow animate__animated animate__headShake">General Physician </h1>
+                    <h1 class="md:text-[70px] md:text-[40px] text-[24px] calistoga text-white md:mb-[30px] mb-[15px] wow animate__animated animate__headShake">General Physician </h1>
                     <div class="questionss flex gap-4">
-                        <h4 class="md:text-[26px] text-[18px] text-white font-medium">Our Specialities  </h4>
+                        <h4 class="md:text-[26px] md:text-[18px] text-[12px] text-white font-medium">Our Specialities  </h4>
                         <img src="./assets/images/Vector.png" class="md:w-[auto] w-[20%]" alt="beat">
                     </div>
                 </div>
             </div>
-            <div class="banner-img absolute xl:right-[100px] lg:w-[auto] w-[60%] right-[0px] bottom-[0px]">
+            <div class="banner-img absolute xl:right-[100px] lg:w-[auto] w-[60%] md:right-[0px] right-[-5%] bottom-[0px]">
                 <img src="./assets/images/FAQ-banner.png" alt="banner">
             </div>
          </div>
@@ -146,42 +163,41 @@
                     </div>
                 </div>
                 <div class="xl:w-2/4 px-[12px] w-full">
-                    <div class="contact-form rounded-2xl md:p-[50px] p-[20px] bg-white shadow-lg ">
+                    <div class="contact-form rounded-[20px] md:p-[50px] p-[20px] bg-white shadow-lg ">
                         <h2 class="lg:text-[40px] sm:text-[30px] text-[24px] calistoga common-bg mb-[30px] wow animate__animated animate__slideInDown"
                             style="-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Book A Free
                             Consultation </h2>
 
                         <form action="">
-                            <div class="full-name mb-[20px] border border-[#D2D2D2] rounded-full">
+                            <div class="full-name mb-[20px] border border-[#D2D2D2] rounded-[50px]">
                                 <input type="text" name="name" id="name" placeholder="Full Name"
-                                    class="px-[24px] py-[18px] w-full rounded-full text-[#a3a3a3] dm-sans" required>
+                                    class="px-[24px] py-[18px] w-full rounded-[50px] text-[#a3a3a3] dm-sans" required>
                             </div>
-                            <div class="ph-number mb-[20px] border border-[#D2D2D2] rounded-full">
+                            <div class="ph-number mb-[20px] border border-[#D2D2D2] rounded-[50px]">
                                 <input type="number" name="phoneNumber" id="phoneNumber" placeholder="Phone Number"
                                     pattern="^9\d{9}$"
-                                    class="px-[24px] py-[18px] w-full rounded-full text-[#a3a3a3] dm-sans" required>
+                                    class="px-[24px] py-[18px] w-full rounded-[50px] text-[#a3a3a3] dm-sans" required>
                             </div>
-                            <div class="ph-number mb-[20px] border border-[#D2D2D2] rounded-full">
+                            <div class="ph-number mb-[20px] border border-[#D2D2D2] rounded-[50px]">
                                 <input type="email" name="email" id="email" placeholder="Email"
-                                    class="px-[24px] py-[18px] w-full rounded-full text-[#a3a3a3] dm-sans" required>
+                                    class="px-[24px] py-[18px] w-full rounded-[50px] text-[#a3a3a3] dm-sans" required>
                             </div>
-                            <div class="ph-number mb-[20px] border border-[#D2D2D2] rounded-full">
+                            <div class="ph-number mb-[20px] border border-[#D2D2D2] rounded-[50px]">
                                 <input type="text" name="appointmentDate" id="appointmentDate"
                                     placeholder="Appointment Date"
-                                    class="px-[24px] py-[18px] w-full rounded-full text-[#a3a3a3] dm-sans" required>
+                                    class="px-[24px] py-[18px] w-full rounded-[50px] text-[#a3a3a3] dm-sans" required>
                             </div>
-                            <div class="ph-number mb-[20px] border border-[#D2D2D2] rounded-full">
+                            <div class="ph-number mb-[20px] border border-[#D2D2D2] rounded-[50px]">
                                 <input type="text" name="appointmentTime" id="appointmentTime"
                                     placeholder="Appointment Time"
-                                    class="px-[24px] py-[18px] w-full rounded-full text-[#a3a3a3] dm-sans" required>
+                                    class="px-[24px] py-[18px] w-full rounded-[50px] text-[#a3a3a3] dm-sans" required>
                             </div>
-                            <div class="ph-number mb-[20px] border border-[#D2D2D2] rounded-full">
+                            <div class="ph-number mb-[20px] border border-[#D2D2D2] rounded-[50px]">
                                 <input type="text" name="location" id="location" placeholder="Location"
-                                    class="px-[24px] py-[18px] w-full rounded-full text-[#a3a3a3] dm-sans" required>
+                                    class="px-[24px] py-[18px] w-full rounded-[50px] text-[#a3a3a3] dm-sans" required>
                             </div>
                             <button
-                                class="book-appointment common-bg w-full p-[10px] rounded-full text-white dm-sans text-bold flex items-center justify-center">Book
-                                Appointment <i class="fa-solid ms-3 fa-arrow-right-long"></i></button>
+                                class="book-appointment common-bg w-full p-[10px] rounded-full text-white dm-sans text-bold flex items-center justify-center">Submit<i class="fa-solid ms-3 fa-arrow-right-long"></i></button>
                         </form>
                     </div>
                 </div>
@@ -220,8 +236,7 @@
         <div class="container m-auto">
             <div class="heading mb-[50px]">
                 <h2 class="lg:text-[40px] text-center sm:text-[30px] text-[24px] calistoga common-bg mb-[10px] wow animate__animated animate__slideInDown"
-                    style="-webkit-background-clip: text;-webkit-text-fill-color: transparent;">‘ Health And Wellness
-                    Tips ’</h2>
+                    style="-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Clinic Management Software for General Physician</h2>
                 <p class="fs-[18px] text-[#A3A3A3]  text-center dm-sans">Offer short video clips with health tips and
                     advice.</p>
             </div>
@@ -295,14 +310,14 @@
         </div>
         <div class="container m-auto">
             <div class="flex flex-wrap">
-                <div class="lg:w-4/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] sm-2/4 w-full">
-                    <div class="logo mb-[10px]"><img src="assets/images/white-logo.png" alt="logo"></div>
+                <div class="xl:w-3/12 md:w-6/12 w-full  mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] ">
+                    <div class="logo mb-[10px] "><img src="assets/images/white-logo.png" class="m-auto md:m-0" alt="logo"></div>
                     <div class="footer-content">
-                        <p class="text-white dm-sans text-[18px] wow animate__animated animate__fadeInUp"
+                        <p class="text-white dm-sans text-[18px] text-center md:text-start wow animate__animated animate__fadeInUp"
                             data-wow-delay="0.25s">established fact that a reader will be distracted
                             by the readable content of a page when looking at its layout. The point of using Lorem
-                            Ipsum is that it has .</p>
-                        <div class="icons flex mt-[20px]">
+                            Ipsum is that it has</p>
+                        <div class="icons flex md:justify-start justify-center mt-[20px]">
                             <div
                                 class="me-[10px] w-[40px] h-[40px] bg-white flex justify-center items-center rounded-full">
                                 <svg width="20" height="17" viewBox="0 0 20 17" fill="none"
@@ -365,50 +380,55 @@
                         </div>
                     </div>
                 </div>
-                <div class="lg:w-2/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] sm:w-2/4 w-full">
-                    <h3 class="text-white text-[20px] font-bold mb-[20px]">Quick Links</h3>
+                <div class="xl:w-2/12 md:w-2/12 w-4/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] ">
+                    <h3 class="text-white md:text-[20px] text-[16px]  font-bold mb-[20px]">Quick Links</h3>
                     <ul class="footer-menu">
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">Pricing</a>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href=""
+                                class="md:text-[18px] text-[14px]  text-white dm-sans ">Pricing</a></li>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href=""
+                                class="md:text-[18px] text-[14px]  text-white dm-sans ">Testimonials</a>
                         </li>
-                        <li class="mb-[15px] relative"><a href=""
-                                class="text-[18px] text-white dm-sans ">Testimonials</a>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="FAQs.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">FAQS</a>
                         </li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">FAQS</a></li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">About Us</a>
-                        </li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">Cast Study</a>
-                        </li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">Contact Us</a>
-                        </li>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="aboutus.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">About
+                                Us</a></li>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="blogDetails.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">Cast
+                                Study</a></li>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="contactus.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">Contact
+                                Us</a></li>
                     </ul>
                 </div>
-                <div class="lg:w-2/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] sm:w-2/4 w-full">
-                    <h3 class="text-white text-[20px] font-bold mb-[20px]">Pages</h3>
+                <div class="xl:w-2/12 md:w-2/12 w-4/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] ">
+                    <h3 class="text-white md:text-[20px] text-[16px]  font-bold mb-[20px]">Pages</h3>
                     <ul class="footer-menu">
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">Home</a></li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">About Us</a>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="index.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">Home</a>
                         </li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">FAQS</a></li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">Speciality</a>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="aboutus.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">About
+                                Us</a></li>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="FAQs.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">FAQS</a>
                         </li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">Blog</a></li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">Contact Us</a>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="Speciality.html"
+                                class="md:text-[18px] text-[14px]  text-white dm-sans ">Speciality</a></li>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="Blogs.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">Blog</a>
                         </li>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="contactus.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">Contact
+                                Us</a></li>
                     </ul>
                 </div>
-                <div class="lg:w-2/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] sm:w-2/4 w-full">
-                    <h3 class="text-white text-[20px] font-bold mb-[20px]">Support</h3>
+                <div class="xl:w-2/12 md:w-2/12 w-4/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] ">
+                    <h3 class="text-white md:text-[20px] text-[16px]  font-bold mb-[20px]">Support</h3>
                     <ul class="footer-menu">
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">Privacy
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="#" class="md:text-[18px] text-[14px]  text-white dm-sans ">Privacy
                                 policy</a>
                         </li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">Terms &
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="#" class="md:text-[18px] text-[14px]  text-white dm-sans ">Terms &
                                 Condition</a></li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">FAQS</a></li>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="FAQs.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">FAQS</a>
+                        </li>
                     </ul>
                 </div>
-                <div class="lg:w-2/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] sm:w-2/4 w-full">
-                    <h3 class="text-white text-[20px] font-bold mb-[20px]">Contact Us</h3>
+                <div class="xl:w-3/12 mb-[20px] lg:mb-[0px] mt-[20px] xl:mt-[0px] px-[12px] lg:[px-0]  w-full">
+                    <h3 class="text-white md:text-[20px] text-[16px]  font-bold mb-[20px]">Contact Us</h3>
                     <ul>
                         <li class="mb-[15px] flex items-center flex-wrap">
                             <div
@@ -420,7 +440,7 @@
                                         fill="#076280" />
                                 </svg>
                             </div>
-                            <a href="#" class="text-[18px] text-white dm-sans">+91-93450 85552</a>
+                            <a href="#" class="md:text-[18px] text-[14px] text-white dm-sans">+91-93450 85552</a>
                         </li>
                         <li class="mb-[15px] flex items-center flex-wrap">
                             <div
@@ -433,7 +453,7 @@
                                 </svg>
 
                             </div>
-                            <a href="#" class="text-[18px] text-white dm-sans">info@kivihealth.com</a>
+                            <a href="#" class="md:text-[18px] text-[14px] text-white dm-sans">info@kivihealth.com</a>
                         </li>
                     </ul>
                 </div>

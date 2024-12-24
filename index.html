@@ -27,7 +27,7 @@
 <body>
     <main>
         <!-- HEADER & BANNER SECTION -->
-        <section class="  index-banner relative common-bg z-50 rounded-b-3xl ">
+        <section class="index-banner relative common-bg3 z-50 md:rounded-b-[50px] rounded-[20px] ">
             <div class="container m-auto">
                 <header class="pt-[15px] mx-[12px] lg:mx-[0px]">
                     <nav class="mx-auto bg-white rounded-full flex  items-center justify-between p-6 lg:px-8"
@@ -35,7 +35,7 @@
                         <div class="flex lg:flex-1">
                             <a href="#" class="-m-1.5 p-1.5">
                                 <span class="sr-only">Your Company</span>
-                                <a href="index.html"> <img class="h-8 w-auto" src="assets/images/logo.png" alt=""></a>
+                                <a href="index.html"> <img class="md:w-auto w-[90px]  " src="assets/images/logo.png" alt=""></a>
                             </a>
                         </div>
                         <div class="flex lg:hidden">
@@ -50,15 +50,15 @@
                             </button>
                         </div>
                         <div class="hidden lg:flex lg:gap-x-12">
-                            <ul class="flex gap-6">
-                                <li><a class="dm-sans text-[20px] common-color relative menu-hover font-bold"
+                            <ul class="flex ">
+                                <li class="xl:pl-[50px] pl-[20px]"><a class="dm-sans text-[20px] common-color relative menu-hover font-bold"
                                         href="index.html">Home</a>
                                 </li>
-                                <li><a class="dm-sans text-[20px] text-gray-400" href="aboutus.html">About Us</a></li>
-                                <li><a class="dm-sans text-[20px] text-gray-400" href="FAQs.html">FAQ's</a></li>
-                                <li><a class="dm-sans text-[20px] text-gray-400" href="Speciality.html">Speciality</a>
+                                <li class="xl:pl-[50px] pl-[20px]"><a class="dm-sans text-[20px] text-gray-400" href="aboutus.html">About Us</a></li>
+                                <li class="xl:pl-[50px] pl-[20px]"><a class="dm-sans text-[20px] text-gray-400" href="FAQs.html">FAQ's</a></li>
+                                <li class="xl:pl-[50px] pl-[20px]"><a class="dm-sans text-[20px] text-gray-400" href="Speciality.html">Speciality</a>
                                 </li>
-                                <li><a class="dm-sans text-[20px] text-gray-400" href="Blogs.html">Blogs</a></li>
+                                <li class="xl:pl-[50px] pl-[20px]"><a class="dm-sans text-[20px] text-gray-400" href="Blogs.html">Blogs</a></li>
                             </ul>
                         </div>
                         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -118,14 +118,18 @@
                         </div>
                 </header>
                 <div class="banner text-center">
-                    <h1
-                        class="wow animate__animated animate__headShake md:text-[38px] xl:text-[45px] text-[24px] pb-[30px] calistoga text-white xl:pt-[80px] pt-[40px] text-anime-style-3">
+                    <div class="users absolute text-start top-[55%]  md:left-[10%] left-[3%]">
+                        <h3 class="md:text-[20px] text-[12px] text-white font-bold">5M+</h3>
+                        <p class="md:text-[18px] text-[10px] text-white mb-[10px]">Active Users</p>
+                        <img src="assets/images/Users.png" class="md:w-auto w-[35%]" alt="users">
+                    </div>
+                    <h1  class="wow animate__animated animate__headShake md:text-[38px] xl:text-[60px] text-[24px] pb-[30px] calistoga text-white xl:pt-[80px] pt-[40px] text-anime-style-3">
                         Advanced Clinic Management Software <br>For
                         Your Medical Practice</h1>
                     <button
-                        class="md:px-[24px] px-[12px] dm-sans border-white border-2 mt-[30px]  md:px-[24px] transition white-button px-[12px] md:py-[12px] py-[6px] rounded-full text-white">Contact
-                        Us <i class="fa-solid ms-3 fa-arrow-right-long"></i></button>
-                    <div class="img pt-[80px]">
+                        class="md:px-[24px] px-[12px] dm-sans border-white border-2 mt-[30px]  md:px-[24px] transition white-button px-[12px] md:py-[12px] py-[6px] rounded-full text-white">
+                        <a href="contactus.html"> Book Now <i class="fa-solid ms-3 fa-arrow-right-long"></i></a></button>
+                    <div class="img md:pt-[184px] pt-[50px]">
                         <img src="assets/images/banner.png"
                             class="wow animate__animated animate__fadeIn w-[60%] m-auto " alt="">
                     </div>
@@ -136,20 +140,23 @@
         <!-- HEADER & BANNER SECTION OVER -->
 
         <!-- PROMOTION SECTION START  -->
-        <section class="lg:py-[160px] py-[50px]">
+        <section class="lg:py-[160px] py-[50px] relative">
+            <div class="absolute right-0 top-0">
+                <img src="assets/images/fogg.png" alt="glow">
+            </div>
             <div class="container m-auto">
                 <div class="flex flex-wrap">
                     <div class="xl:w-2/4 w-full mb-[20px] xl:mb-[0px]   px-[12px]">
                         <div class="promotion-content md:w-11/12">
-                            <h2 class="lg:text-[40px] sm:text-[30px] text-[24px]  calistoga common-bg mb-2.5"
+                            <h2 class="lg:text-[40px] sm:text-[30px] text-[24px]  calistoga common-bg mb-2.5 lg:text-start text-center"
                                 style="-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Download Our
                                 Home Cleaning & Service App</h2>
-                            <p class="text-neutral-400  lg:text-xl text-[16px] dm-sans  wow animate__animated animate__fadeInUp"
+                            <p class="text-neutral-400  lg:text-xl lg:text-start text-center text-[16px] dm-sans  wow animate__animated animate__fadeInUp"
                                 data-wow-delay="0.25s">It is a long established fact
                                 that a reader
                                 will
                                 be distracted by the readable content of a page.</p>
-                            <div class="service-numbers flex flex-wrap mt-[20px]">
+                            <div class="service-numbers flex lg:justify-start justify-center flex-wrap mt-[20px]">
                                 <div
                                     class="own-services lg:pr-[80px] pr-[40px]  border-r-[2px] border-[rgba(14,117,150,0.1)]">
                                     <h2 class="lg:text-[40px] sm:text-[30px] text-[24px] calistoga text-[#333333] ">
@@ -168,42 +175,37 @@
                             </div>
                         </div>
                     </div>
-                    <div
-                        class="xl:w-2/4 w-full mb-[20px] xl:mb-[0px]  xl:px-[12px] wow animate__animated animate__fadeInDown">
-                        <div class="flex flex-wrap ">
-                            <div class="lg:w-2/4 w-full mb-[20px] xl:mb-[0px]  relative calistoga xl:px-[10px] ">
-                                <div class="ios p-[30px] bg-[#F9F9F9]  rounded-3xl">
-                                    <h3 class="lg:text-[30px] text-[24px] common-color font-medium ">For Ios</h3>
-                                    <p class="text-neutral-400 lg:text-xl text-[16px] dm-sans  wow animate__animated animate__fadeInUp"
+                    <div class="xl:w-2/4 w-full mb-[20px] xl:mb-[0px]  xl:px-[12px] wow animate__animated animate__fadeInDown">
+                        <div class="flex ">
+                            <div class="w-2/4   mb-[20px] xl:mb-[0px]  relative calistoga md:px-[10px] px-[12px] ">
+                                <div class="ios p-[30px] bg-[#F9F9F9]  rounded-[20px]">
+                                    <h3 class="lg:text-[30px] md:text-[24px] text-[15px]  common-color font-bold md:font-medium ">For Ios</h3>
+                                    <p class="text-neutral-400  md:text-[18px] text-[12px] dm-sans  wow animate__animated animate__fadeInUp"
                                         data-wow-delay="0.25s">Ios 15.6+</p>
-                                    <button
-                                        class="px-[24px] dm-sans common-bg my-[30px] px-[24px] py-[12px] rounded-full text-white">Download
-                                        App</button>
+                                    <button class="dm-sans common-bg my-[30px] md:px-[24px] md:text-[20px] text-[12px] px-[10px] md:py-[12px] py-[5px] rounded-full text-white">
+                                        Download App</button>
                                     <div
-                                        class="scanner bg-white flex justify-center items-center rounded-2xl w-[100px] h-[100px]">
+                                        class="scanner bg-white flex justify-center items-center rounded-2xl md:w-[100px]  w-[60px] h-[60px] md:h-[100px] ">
                                         <img src="assets/images/scanner.png" alt="">
                                     </div>
                                     <div
-                                        class="apple-icon bg-white rounded-full flex justify-center items-center absolute right-[0px] lg:right-[-20px] bottom-[-20px] w-[100px] h-[100px] lg:w-[148px] lg:h-[148px] ">
+                                        class="apple-icon bg-white rounded-full flex justify-center items-center absolute right-[0px] lg:right-[-20px] bottom-[-20px] md:w-[100px] w-[80px] h-[80px] md:h-[100px] lg:w-[148px] lg:h-[148px] ">
                                         <img src="assets/images/Icons/ios.png" class="w-[60%] lg:w-[auto]" alt="ios">
                                     </div>
                                 </div>
                             </div>
-                            <div
-                                class="lg:w-2/4 w-full mb-[20px] xl:mb-[0px] relative px-[10px] wow animate__animated animate__fadeInDown ">
-                                <div class="ios p-[30px] bg-[#F9F9F9]  rounded-3xl">
-                                    <h3 class="lg:text-[30px] text-[24px] common-color font-medium ">For Android</h3>
-                                    <p class="text-neutral-400 lg:text-xl text-[14px] dm-sans  wow animate__animated animate__fadeInUp"
+                            <div class="w-2/4  mb-[20px] xl:mb-[0px] relative :px-[10px] px-[12px] wow animate__animated animate__fadeInDown ">
+                                <div class="ios p-[30px] bg-[#F9F9F9]  rounded-[20px]">
+                                    <h3 class="lg:text-[30px] md:text-[24px] text-[15px] common-color font-medium ">For Android</h3>
+                                    <p class="text-neutral-400 md:text-[18px] text-[12px] dm-sans  wow animate__animated animate__fadeInUp"
                                         data-wow-delay="0.25s">Android 8.0+</p>
-                                    <button
-                                        class="px-[24px] dm-sans common-bg my-[30px] px-[24px] py-[12px] rounded-full text-white">Download
-                                        App</button>
-                                    <div
-                                        class="scanner bg-white flex justify-center items-center rounded-2xl w-[100px] h-[100px]">
-                                        <img src="assets/images/scanner.png" alt="">
+                                        <button class="dm-sans common-bg my-[30px] md:px-[24px] md:text-[20px] text-[12px] px-[10px] md:py-[12px] py-[5px] rounded-full text-white">
+                                            Download App</button>
+                                    <div class="scanner bg-white flex justify-center items-center rounded-2xl md:w-[100px] w-[60px] h-[60px] md:h-[100px] ">
+                                        <img src="assets/images/scanner.png" alt="scanner">
                                     </div>
                                     <div
-                                        class="apple-icon bg-white rounded-full flex justify-center items-center absolute right-[0px] lg:right-[-20px] bottom-[-20px] w-[100px] h-[100px] lg:w-[148px] lg:h-[148px] ">
+                                        class="apple-icon bg-white rounded-full flex justify-center items-center absolute right-[0px] lg:right-[-20px] bottom-[-20px] md:w-[100px] w-[80px] h-[80px] md:h-[100px] lg:w-[148px] lg:h-[148px] ">
                                         <img src="assets/images/Icons/Android.png" class="w-[60%] lg:w-[auto]"
                                             alt="Android">
                                     </div>
@@ -217,21 +219,22 @@
         <!-- PROMOTION SECTION END -->
 
         <!-- SPECIALITY SECTION START -->
-        <section class="common-bg2 py-[80px] relative  rounded-3xl ">
+        <section class="common-bg-blur py-[80px] relative  rounded-[20px] ">
             <div class="container m-auto ">
                 <div class="speciality-heading px:[12px]  pb-[50px]">
                     <div class="flex lg:mx-[0px] mx-[12px] justify-between items-center">
-                        <h2 class="lg:text-[40px] sm:text-[30px] lg:w-6/12 text-[24px] calistoga common-bg mb-2.5 wow animate__animated animate__slideInDown"
+                        <h2 class="lg:text-[40px] sm:text-[30px] lg:w-6/12 w-9/12 text-[24px] calistoga common-bg mb-2.5 wow animate__animated animate__slideInDown"
                             style="-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Discover What
                             KiviHealth Can Do For Your Speciality</h2>
-                        <button
-                            class="lg:px-[24px] px-[12px] dm-sans w-[165px] common-bg lg:px-[24px] px-[12px] lg:py-[12px] py-[6px]  rounded-full text-white md:block hidden">Contact
-                            Us <i class="fa-solid ms-3 fa-arrow-right-long"></i></button>
+                            <button
+                            class="lg:px-[24px] px-[12px] dm-sans common-bg lg:px-[24px] px-[12px] lg:py-[12px] py-[6px]  rounded-full text-white">
+                            <a href="Speciality.html">View More</a> <i
+                                class="fa-solid ms-3 fa-arrow-right-long"></i></button>
                     </div>
 
                 </div>
             </div>
-            <div class="speciality-slider lg:ps-[192px] px-[20px]">
+            <div class="speciality-slider lg:ps-[232px] px-[20px]">
                 <!-- SLIDE ONE -->
                 <div class="item md:p-[30px] p-[20px] rounded-2xl">
                     <div
@@ -559,15 +562,15 @@
                         medical device</p>
                 </div>
                 <div
-                    class="prescription md:mb-[117px] mb-[20px] mx-[12px]  lg:-mx-[0px]  lg:p-[50px] p-[20px] common-bg rounded-3xl relative z-1">
+                    class="prescription md:mb-[117px] mb-[20px] mx-[12px]  lg:-mx-[0px]  lg:p-[50px] p-[20px] common-bg rounded-[20px] relative z-1">
                     <div class="prescription-img md:block  absolute left-0  top-[8px] -z-[20]   ">
                         <img src="./assets/images/integration-design.png" alt="integration-design">
                     </div>
                     <div
-                        class="laptop absolute md:block hidden w-[40%] right-[0px] top-[-40px] md:top-[-171px] md:right-[0px] md:w-[40%] ">
-                        <img src="./assets/images/laptop.png" class="" alt="laptop">
+                        class="laptop absolute md:block  w-[60%] right-[0px] top-[-50px] md:top-[-121px] md:right-[0px] md:w-[40%] ">
+                        <img src="./assets/images/right-laptop.png" class="" alt="laptop">
                     </div>
-                    <div>
+                    <div class=" md:pt-[0px]  pt-[120px]">
                         <h2 class="text-white dm-sans lg:text-[40px] text-[25px] font-bold mb-[15px]">One Click Digital
                             Prescription
                         </h2>
@@ -575,23 +578,22 @@
                             data-wow-delay="0.25s">Send through WhatsApp, SMS,
                             Email</p>
                     </div>
-                    <button
+                    <a href="contactus.html"><button
                         class="dm-sans border-2 lg:px-[24px] px-[12px] lg:py-[12px] py-[6px] rounded-full transition white-button  text-white">Sign
-                        Up Now <i class="fa-solid ms-3 fa-arrow-right-long"></i></button>
+                        Up Now <i class="fa-solid ms-3 fa-arrow-right-long"></i></button></a>
                 </div>
-                <div
-                    class="prescription lg:p-[50px] p-[20px] mx-[12px]  lg:-mx-[0px] common-bg rounded-3xl relative z-1">
+                <div class="prescription lg:p-[50px] lg:mt-[0px] mt-[100px] p-[20px] mx-[12px]  lg:-mx-[0px] common-bg rounded-[20px] relative z-1">
                     <div class="prescription-img absolute right-0 -z-[20] top-[3px] z-50">
                         <img src="./assets/images/integration-design2.png" alt="integration-design">
                     </div>
                     <div
-                        class="laptop absolute w-[40%] left-[0px] top-[-40px] md:top-[-100px] md:left-[0px] md:w-[40%] md:block hidden  z-50">
+                        class="laptop absolute w-[50%] left-[0px] top-[-60px] md:top-[-140px] md:left-[0px] md:w-[40%] md:block  z-50">
                         <img src="./assets/images/laptop-2.png" alt="laptop">
                     </div>
                     <div class=" opacity-25 absolute z-0 left-[0px] md:block hidden bottom-[60px]">
                         <img src="./assets/images/Group 1000005448.png" class="" alt="laptop-bg">
                     </div>
-                    <div class="md:ps-[50%]">
+                    <div class="md:ps-[50%] md:pt-[0px]  pt-[120px]">
                         <h2 class="text-white dm-sans lg:text-[40px] text-[25px] font-bold mb-[15px]">No More HumanError
                             During Bill
                             Payment</h2>
@@ -610,7 +612,7 @@
         <!-- DEVICE INTERGRATION SECTION END -->
 
         <!-- FEATURES SECTION START -->
-        <section class="py-[80px] common-bg2 rounded-3xl relative overflow-hidden">
+        <section class="py-[80px] common-bg2 rounded-[20px] relative overflow-hidden">
             <div class=" absolute right-0 top-0 ">
                 <img src="assets/images/integration-design3.png" alt="integration-design">
             </div>
@@ -623,66 +625,83 @@
                                 KiviHealth The Smartest Patient Management Software, Now On Your Smartphone</h2>
                         </div>
                         <div class="features flex items-center mb-[25px]  ">
-                            <div
-                                class="verified ms-[12px] ms-[0px] w-[26px] h-[26px] rounded-full bg-[#1565C0] flex justify-center items-center relative 
+                            <div>
+                                <img src="assets/images/tickmark.png" alt="mark">
+                            </div>
+                            <!-- <div class="verified ms-[12px] ms-[0px] w-[26px] h-[26px] rounded-full bg-[#1565C0] flex justify-center items-center relative 
                             before:w-[35px] before:h-[35px] before:absolute before:rounded-md before:bg-[rgba(41,182,246,0.7)] before:-z-[45] 
                             after:w-[35px] after:h-[35px] after:absolute after:rounded-md after:bg-[rgba(41,182,246,0.7)] after:-z-50 after:rotate-45 ">
                                 <i class="fa-solid fa-check text-white"></i>
-                            </div>
+                            </div> -->
                             <h3 class="dm-sans ms-[20px] text-[14px] lg:text-[22px] color-[#333333]">Access your virtual
                                 clinic in
                                 one-tap</h3>
                         </div>
                         <div class="features flex items-center mb-[25px]  ">
-                            <div
+                            <!-- <div
                                 class="verified ms-[12px] ms-[0px] w-[26px] h-[26px] rounded-full bg-[#1565C0] flex justify-center items-center relative 
                             before:w-[35px] before:h-[35px] before:absolute before:rounded-md before:bg-[rgba(41,182,246,0.7)] before:-z-[45] 
                             after:w-[35px] after:h-[35px] after:absolute after:rounded-md after:bg-[rgba(41,182,246,0.7)] after:-z-50 after:rotate-45 ">
                                 <i class="fa-solid fa-check text-white"></i>
+                            </div> -->
+                            <div>
+                                <img src="assets/images/tickmark.png" alt="mark">
                             </div>
                             <h3 class="dm-sans ms-[20px] text-[14px] lg:text-[22px] color-[#333333]">High quality video
                                 consultations
                             </h3>
                         </div>
                         <div class="features flex items-center mb-[25px]  ">
-                            <div
+                            <!-- <div
                                 class="verified ms-[12px] ms-[0px] w-[26px] h-[26px] rounded-full bg-[#1565C0] flex justify-center items-center relative 
                             before:w-[35px] before:h-[35px] before:absolute before:rounded-md before:bg-[rgba(41,182,246,0.7)] before:-z-[45] 
                             after:w-[35px] after:h-[35px] after:absolute after:rounded-md after:bg-[rgba(41,182,246,0.7)] after:-z-50 after:rotate-45 ">
                                 <i class="fa-solid fa-check text-white"></i>
+                            </div> -->
+                            <div>
+                                <img src="assets/images/tickmark.png" alt="mark">
                             </div>
                             <h3 class="dm-sans ms-[20px] text-[14px] lg:text-[22px] color-[#333333]">Enhanced patient
                                 retention with
                                 follow up reminders & updates</h3>
                         </div>
                         <div class="features flex items-center mb-[25px]  ">
-                            <div
+                            <!-- <div
                                 class="verified ms-[12px] ms-[0px] w-[26px] h-[26px] rounded-full bg-[#1565C0] flex justify-center items-center relative 
                             before:w-[35px] before:h-[35px] before:absolute before:rounded-md before:bg-[rgba(41,182,246,0.7)] before:-z-[45] 
                             after:w-[35px] after:h-[35px] after:absolute after:rounded-md after:bg-[rgba(41,182,246,0.7)] after:-z-50 after:rotate-45 ">
                                 <i class="fa-solid fa-check text-white"></i>
+                            </div> -->
+                            <div>
+                                <img src="assets/images/tickmark.png" alt="mark">
                             </div>
                             <h3 class="dm-sans ms-[20px] text-[14px] lg:text-[22px] color-[#333333]">Manage clinic
                                 calendar with an
                                 appointment scheduler</h3>
                         </div>
                         <div class="features flex items-center mb-[25px]  ">
-                            <div
+                            <!-- <div
                                 class="verified ms-[12px] ms-[0px] w-[26px] h-[26px] rounded-full bg-[#1565C0] flex justify-center items-center relative 
                             before:w-[35px] before:h-[35px] before:absolute before:rounded-md before:bg-[rgba(41,182,246,0.7)] before:-z-[45] 
                             after:w-[35px] after:h-[35px] after:absolute after:rounded-md after:bg-[rgba(41,182,246,0.7)] after:-z-50 after:rotate-45 ">
                                 <i class="fa-solid fa-check text-white"></i>
+                            </div> -->
+                            <div>
+                                <img src="assets/images/tickmark.png" alt="mark">
                             </div>
                             <h3 class="dm-sans ms-[20px] text-[14px] lg:text-[22px] color-[#333333]">Send digital
                                 prescription to
                                 patients via SMS/WhatsApp</h3>
                         </div>
                         <div class="features flex items-center mb-[25px]  ">
-                            <div
+                            <!-- <div
                                 class="verified ms-[12px] ms-[0px] w-[26px] h-[26px] rounded-full bg-[#1565C0] flex justify-center items-center relative 
                             before:w-[35px] before:h-[35px] before:absolute before:rounded-md before:bg-[rgba(41,182,246,0.7)] before:-z-[45] 
                             after:w-[35px] after:h-[35px] after:absolute after:rounded-md after:bg-[rgba(41,182,246,0.7)] after:-z-50 after:rotate-45 ">
                                 <i class="fa-solid fa-check text-white"></i>
+                            </div> -->
+                            <div>
+                                <img src="assets/images/tickmark.png" alt="mark">
                             </div>
                             <h3 class="dm-sans ms-[20px] text-[14px] lg:text-[22px] color-[#333333]">Experience the
                                 next-gen
@@ -848,9 +867,9 @@
         <!-- TESTIMONIALS END -->
 
         <!-- FAQ SECTION START -->
-        <section class="py-[80px] common-bg2 rounded-3xl">
+        <section class="py-[80px] common-bg2 rounded-[20px]">
             <div class="container m-auto">
-                <div class="heading text-center mb-[50px]">
+                <div class="heading  mb-[50px]">
                     <h2 class="lg:text-[40px] sm:text-[30px] text-[24px]  calistoga common-bg mb-[10px] wow animate__animated animate__slideInDown"
                         style="-webkit-background-clip: text;-webkit-text-fill-color: transparent;">
                         Frequently Asked Questions </h2>
@@ -858,12 +877,10 @@
                 <div class="faq-container">
                     <div class="single-open">
                         <div
-                            class="faq-item mx-[12px] lg:mx-[0px] transition  mb-[15px] bg-white rounded-xl  panel py-[10px] px-[15px]">
+                            class="faq-item mx-[12px] lg:mx-[0px] transition  mb-[15px] bg-white rounded-[15px]  panel py-[10px] px-[15px]">
                             <div class="panel-header transition cursor-pointer flex justify-between">
                                 <h4
-                                    class=" lg:text-[25px] text-[18px] faq-question  font-bold text-[#9a9a9a] dm-sans mb-[10px]">
-                                    What is
-                                    KiViHealth?</h4>
+                                    class=" lg:text-[25px] text-[18px] faq-question  text-[#9a9a9a] dm-sans mb-[10px]">What is KiViHealth?</h4>
                                 <div
                                     class="arrow lg:ms-[0px] ms-[10px]  w-[40px] h-[40px]  rounded-full shadow-lg flex justify-center items-center">
                                     <i class="fa-solid fa-angle-down text-dark"></i>
@@ -879,10 +896,10 @@
                             </p>
                         </div>
                         <div
-                            class="faq-item mx-[12px] lg:mx-[0px] transition  mb-[15px] bg-white rounded-xl  panel py-[10px] px-[15px]">
+                            class="faq-item mx-[12px] lg:mx-[0px] transition  mb-[15px] bg-white rounded-[15px]  panel py-[10px] px-[15px]">
                             <div class="panel-header transition cursor-pointer flex justify-between">
                                 <h4
-                                    class=" lg:text-[25px] text-[18px] faq-question  font-bold text-[#9a9a9a] dm-sans mb-[10px]">
+                                    class=" lg:text-[25px] text-[18px] faq-question  text-[#9a9a9a] dm-sans mb-[10px]">
                                     Finding
                                     us on Google</h4>
                                 <div
@@ -900,10 +917,10 @@
                             </p>
                         </div>
                         <div
-                            class="faq-item mx-[12px] lg:mx-[0px] transition  mb-[15px] bg-white rounded-xl  panel py-[10px] px-[15px]">
+                            class="faq-item mx-[12px] lg:mx-[0px] transition  mb-[15px] bg-white rounded-[15px]  panel py-[10px] px-[15px]">
                             <div class="panel-header transition cursor-pointer flex justify-between">
                                 <h4
-                                    class=" lg:text-[25px] text-[18px] faq-question  font-bold text-[#9a9a9a] dm-sans mb-[10px]">
+                                    class=" lg:text-[25px] text-[18px] faq-question  text-[#9a9a9a] dm-sans mb-[10px]">
                                     24*7
                                     assistance @ 98980 00380. How is it useful?</h4>
                                 <div
@@ -921,10 +938,10 @@
                             </p>
                         </div>
                         <div
-                            class="faq-item mx-[12px] lg:mx-[0px] transition  mb-[15px] bg-white rounded-xl  panel py-[10px] px-[15px]">
+                            class="faq-item mx-[12px] lg:mx-[0px] transition  mb-[15px] bg-white rounded-[15px]  panel py-[10px] px-[15px]">
                             <div class="panel-header transition cursor-pointer flex justify-between">
                                 <h4
-                                    class=" lg:text-[25px] text-[18px] faq-question  font-bold text-[#9a9a9a] dm-sans mb-[10px]">
+                                    class=" lg:text-[25px] text-[18px] faq-question  text-[#9a9a9a] dm-sans mb-[10px]">
                                     How can
                                     I login to my KiViHealth account?</h4>
                                 <div
@@ -943,9 +960,9 @@
                         </div>
                     </div>
                     <div class="contact-btn text-center mt-[57px]">
-                        <button
+                        <a href="FAQs.html"><button
                             class="lg:px-[24px] px-[12px] dm-sans common-bg lg:px-[24px] px-[12px] lg:py-[12px] py-[6px]  rounded-full text-white">View
-                            More <i class="fa-solid ms-3 fa-arrow-right-long"></i></button>
+                            More <i class="fa-solid ms-3 fa-arrow-right-long"></i></button></a>
                     </div>
 
                 </div>
@@ -955,16 +972,16 @@
 
         <!-- CONTACT US SECTION START -->
         <section class="lg:py-[160px] py-[50px]">
-            <div class="container m-auto">
+            <div class="container m-auto relative">
+                 <div class="laptop lg:absolute lg:right-[0px] right-[-5%] bottom-[100%] z-[1111] lg:bottom-[0px]   ">
+                <img src="./assets/images/contact-person.png" class="lg:w-auto w-[70%] m-auto" alt="laptop">
+            </div>
 
-                <div
-                    class="prescription lg:mx-[0px] mx-[12px] lg:p-[50px] p-[20px] z-50  common-bg rounded-3xl relative">
+                <div class="prescription lg:mx-[0px] mx-[12px] lg:p-[50px] p-[20px] z-50  common-bg rounded-[20px] relative">
                     <div class="prescription-img absolute left-[10px] -z-[20] top-[20px]">
                         <img src="./assets/images/integration-design.png" alt="integration-design">
                     </div>
-                    <div class="laptop absolute right-[0px] bottom-[0px]  lg:w-[40%] lg:block hidden">
-                        <img src="./assets/images/contact-person.png" alt="laptop">
-                    </div>
+                   
                     <div>
                         <h2 class="text-white dm-sans text-[40px] font-bold mb-[15px]">Get In Touch
                         </h2>
@@ -973,10 +990,10 @@
                             that it has a more-or-less normal distribution of letters, as opposed to using 'Content
                             here, content here', making it look like readable English. </p>
                     </div>
-                    <button
+                    <a href="contactus.html"><button
                         class="white-button transition dm-sans border-2 lg:px-[24px] lg:py-[12px] px-[12px] py-[6px] rounded-full text-white"><a
-                            href="contact.html">Contact Us</a> <i
-                            class="fa-solid ms-3 fa-arrow-right-long"></i></button>
+                            href="blogDetails.html">Contact Us</a> <i
+                            class="fa-solid ms-3 fa-arrow-right-long"></i></button></a>
                 </div>
 
             </div>
@@ -997,24 +1014,22 @@
                             making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
                             College in Virginia</p>
                     </div>
-                    <div class="view-btn text-center flex justify-end w-full">
-                        <button
-                            class="lg:px-[24px] md:block hidden px-[12px] dm-sans common-bg lg:px-[24px] px-[12px] lg:py-[12px] py-[6px]  rounded-full text-white">View
-                            More <i class="fa-solid ms-3 fa-arrow-right-long"></i></button>
+                    <div class="view-btn text-center  justify-end w-full md:flex hidden">
+                        <button class="lg:px-[24px] md:block hidden px-[12px] dm-sans common-bg lg:px-[24px] px-[12px] lg:py-[12px] py-[6px]  rounded-full text-white"><a href="Blogs.html"> View
+                            More <i class="fa-solid ms-3 fa-arrow-right-long"></i></a></button>
                     </div>
                 </div>
                 <div class="flex flex-wrap">
-                    <div
-                        class="lg:w-4/12 w-full lg:mb-[0px] mb-[20px] px-[12px] wow animate__animated  animate__fadeInUp">
+                    <div class="lg:w-4/12 w-full lg:mb-[0px] mb-[20px] px-[12px] wow animate__animated  animate__fadeInUp">
                         <div class="blog shadow-lg rounded-2xl  ">
                             <div class="blog-img rounded-t-2xl overflow-hidden">
                                 <img src="assets/images/blogs/blog-1.png "
                                     class="hover:scale-125 transition scale-150 m-auto" alt="blog">
                             </div>
                             <div class="blog-content p-[25px]  ">
-                                <button class="common-bg2 p-[15px] mb-[20px] rounded-md"><a href="contact.html"
+                                <button class="common-bg2 p-[15px] mb-[20px] rounded-md"><a href="blogDetails.html"
                                         class="font-semibold dm-sans text-[#1283A8]">Doctor Meeting</a></button>
-                                <h3 class="text-[#333333] mb-[10px] text-[26px] font-bold dm-sans hover:text-[#0B6F8F]">
+                                <h3 class="text-[#333333] mb-[10px] text-[25px] font-bold dm-sans hover:text-[#0B6F8F]">
                                     Navigating the World
                                     of Telemedicine: A Comprehensive.</h3>
                                 <div class="flex justify-between items-center">
@@ -1032,7 +1047,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="lg:w-4/12 w-full lg:mb-[0px] mb-[20px] px-[12px]  wow animate__animated  animate__fadeInUp"
+                    <div class="lg:w-4/12 md:block hidden w-full lg:mb-[0px] mb-[20px] px-[12px]  wow animate__animated  animate__fadeInUp"
                         data-wow-delay="0.25s">
                         <div class="blog shadow-lg rounded-2xl ">
                             <div class="blog-img rounded-t-2xl overflow-hidden">
@@ -1040,9 +1055,9 @@
                                     class="hover:scale-125 transition scale-150 m-auto" alt="blog">
                             </div>
                             <div class="blog-content p-[25px]  ">
-                                <button class="common-bg2 p-[15px] mb-[20px] rounded-md"><a href="contact.html"
+                                <button class="common-bg2 p-[15px] mb-[20px] rounded-md"><a href="blogDetails.html"
                                         class="font-semibold dm-sans text-[#1283A8]">Operations</a></button>
-                                <h3 class="text-[#333333] mb-[10px] text-[26px] font-bold dm-sans hover:text-[#0B6F8F]">
+                                <h3 class="text-[#333333] mb-[10px] text-[25px] font-bold dm-sans hover:text-[#0B6F8F]">
                                     Making distribut
                                     product team work</h3>
                                 <div class="flex justify-between items-center">
@@ -1063,7 +1078,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="lg:w-4/12 w-full lg:mb-[0px] mb-[20px] px-[12px] wow animate__animated animate__fadeInUp"
+                    <div class="lg:w-4/12 md:block hidden w-full lg:mb-[0px] mb-[20px] px-[12px] wow animate__animated animate__fadeInUp"
                         data-wow-delay="0.5s">
                         <div class="blog shadow-lg rounded-2xl ">
                             <div class="blog-img rounded-t-2xl overflow-hidden">
@@ -1071,9 +1086,9 @@
                                     class="hover:scale-125 transition scale-150 m-auto" alt="blog">
                             </div>
                             <div class="blog-content p-[25px]  ">
-                                <button class="common-bg2 p-[15px] mb-[20px] rounded-md"><a href="contact.html"
+                                <button class="common-bg2 p-[15px] mb-[20px] rounded-md"><a href="blogDetails.html"
                                         class="font-semibold dm-sans text-[#1283A8]">Best Doctor</a></button>
-                                <h3 class="text-[#333333] mb-[10px] text-[26px] font-bold dm-sans hover:text-[#0B6F8F]">
+                                <h3 class="text-[#333333] mb-[10px] text-[25px] font-bold dm-sans hover:text-[#0B6F8F]">
                                     There are many
                                     variations passages</h3>
                                 <div class="flex justify-between items-center">
@@ -1092,6 +1107,13 @@
                         </div>
                     </div>
                 </div>
+                <div class="contact-btn text-center mt-[57px] md:hidden ">
+                    <a href="FAQs.html">
+                        <button class="lg:px-[24px] px-[12px] dm-sans common-bg lg:px-[24px] px-[12px] lg:py-[12px] py-[6px]  rounded-full text-white">
+                            View More <i class="fa-solid ms-3 fa-arrow-right-long"></i>
+                        </button>
+                    </a>
+                </div>
             </div>
         </section>
         <!-- BLOG SECTION END -->
@@ -1103,14 +1125,14 @@
             </div>
             <div class="container m-auto">
                 <div class="flex flex-wrap">
-                    <div class="lg:w-4/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] sm-2/4 w-full">
-                        <div class="logo mb-[10px]"><img src="assets/images/white-logo.png" alt="logo"></div>
+                    <div class="xl:w-3/12 md:w-6/12 w-full  mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] ">
+                        <div class="logo mb-[10px] "><img src="assets/images/white-logo.png" class="m-auto md:m-0" alt="logo"></div>
                         <div class="footer-content">
-                            <p class="text-white dm-sans text-[18px] wow animate__animated animate__fadeInUp"
+                            <p class="text-white dm-sans text-[18px] text-center md:text-start wow animate__animated animate__fadeInUp"
                                 data-wow-delay="0.25s">established fact that a reader will be distracted
                                 by the readable content of a page when looking at its layout. The point of using Lorem
-                                Ipsum is that it has .</p>
-                            <div class="icons flex mt-[20px]">
+                                Ipsum is that it has</p>
+                            <div class="icons flex md:justify-start justify-center mt-[20px]">
                                 <div
                                     class="me-[10px] w-[40px] h-[40px] bg-white flex justify-center items-center rounded-full">
                                     <svg width="20" height="17" viewBox="0 0 20 17" fill="none"
@@ -1173,55 +1195,55 @@
                             </div>
                         </div>
                     </div>
-                    <div class="lg:w-2/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] sm:w-2/4 w-full">
-                        <h3 class="text-white text-[20px] font-bold mb-[20px]">Quick Links</h3>
+                    <div class="xl:w-2/12 md:w-2/12 w-4/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] ">
+                        <h3 class="text-white md:text-[20px] text-[16px]  font-bold mb-[20px]">Quick Links</h3>
                         <ul class="footer-menu">
-                            <li class="mb-[15px] relative"><a href=""
-                                    class="text-[18px] text-white dm-sans ">Pricing</a></li>
-                            <li class="mb-[15px] relative"><a href=""
-                                    class="text-[18px] text-white dm-sans ">Testimonials</a>
+                            <li class="md:mb-[15px] mb-[10px] relative"><a href=""
+                                    class="md:text-[18px] text-[14px]  text-white dm-sans ">Pricing</a></li>
+                            <li class="md:mb-[15px] mb-[10px] relative"><a href=""
+                                    class="md:text-[18px] text-[14px]  text-white dm-sans ">Testimonials</a>
                             </li>
-                            <li class="mb-[15px] relative"><a href="FAQs.html" class="text-[18px] text-white dm-sans ">FAQS</a>
+                            <li class="md:mb-[15px] mb-[10px] relative"><a href="FAQs.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">FAQS</a>
                             </li>
-                            <li class="mb-[15px] relative"><a href="aboutus.html" class="text-[18px] text-white dm-sans ">About
+                            <li class="md:mb-[15px] mb-[10px] relative"><a href="aboutus.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">About
                                     Us</a></li>
-                            <li class="mb-[15px] relative"><a href="blogDetails.html" class="text-[18px] text-white dm-sans ">Cast
+                            <li class="md:mb-[15px] mb-[10px] relative"><a href="blogDetails.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">Cast
                                     Study</a></li>
-                            <li class="mb-[15px] relative"><a href="contactus.html" class="text-[18px] text-white dm-sans ">Contact
+                            <li class="md:mb-[15px] mb-[10px] relative"><a href="contactus.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">Contact
                                     Us</a></li>
                         </ul>
                     </div>
-                    <div class="lg:w-2/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] sm:w-2/4 w-full">
-                        <h3 class="text-white text-[20px] font-bold mb-[20px]">Pages</h3>
+                    <div class="xl:w-2/12 md:w-2/12 w-4/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] ">
+                        <h3 class="text-white md:text-[20px] text-[16px]  font-bold mb-[20px]">Pages</h3>
                         <ul class="footer-menu">
-                            <li class="mb-[15px] relative"><a href="index.html" class="text-[18px] text-white dm-sans ">Home</a>
+                            <li class="md:mb-[15px] mb-[10px] relative"><a href="index.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">Home</a>
                             </li>
-                            <li class="mb-[15px] relative"><a href="aboutus.html" class="text-[18px] text-white dm-sans ">About
+                            <li class="md:mb-[15px] mb-[10px] relative"><a href="aboutus.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">About
                                     Us</a></li>
-                            <li class="mb-[15px] relative"><a href="FAQs.html" class="text-[18px] text-white dm-sans ">FAQS</a>
+                            <li class="md:mb-[15px] mb-[10px] relative"><a href="FAQs.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">FAQS</a>
                             </li>
-                            <li class="mb-[15px] relative"><a href="Speciality.html"
-                                    class="text-[18px] text-white dm-sans ">Speciality</a></li>
-                            <li class="mb-[15px] relative"><a href="Blogs.html" class="text-[18px] text-white dm-sans ">Blog</a>
+                            <li class="md:mb-[15px] mb-[10px] relative"><a href="Speciality.html"
+                                    class="md:text-[18px] text-[14px]  text-white dm-sans ">Speciality</a></li>
+                            <li class="md:mb-[15px] mb-[10px] relative"><a href="Blogs.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">Blog</a>
                             </li>
-                            <li class="mb-[15px] relative"><a href="contactus.html" class="text-[18px] text-white dm-sans ">Contact
+                            <li class="md:mb-[15px] mb-[10px] relative"><a href="contactus.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">Contact
                                     Us</a></li>
                         </ul>
                     </div>
-                    <div class="lg:w-2/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] sm:w-2/4 w-full">
-                        <h3 class="text-white text-[20px] font-bold mb-[20px]">Support</h3>
+                    <div class="xl:w-2/12 md:w-2/12 w-4/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] ">
+                        <h3 class="text-white md:text-[20px] text-[16px]  font-bold mb-[20px]">Support</h3>
                         <ul class="footer-menu">
-                            <li class="mb-[15px] relative"><a href="#" class="text-[18px] text-white dm-sans ">Privacy
+                            <li class="md:mb-[15px] mb-[10px] relative"><a href="#" class="md:text-[18px] text-[14px]  text-white dm-sans ">Privacy
                                     policy</a>
                             </li>
-                            <li class="mb-[15px] relative"><a href="#" class="text-[18px] text-white dm-sans ">Terms &
+                            <li class="md:mb-[15px] mb-[10px] relative"><a href="#" class="md:text-[18px] text-[14px]  text-white dm-sans ">Terms &
                                     Condition</a></li>
-                            <li class="mb-[15px] relative"><a href="FAQs.html" class="text-[18px] text-white dm-sans ">FAQS</a>
+                            <li class="md:mb-[15px] mb-[10px] relative"><a href="FAQs.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">FAQS</a>
                             </li>
                         </ul>
                     </div>
-                    <div class="lg:w-2/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] sm:w-2/4 w-full">
-                        <h3 class="text-white text-[20px] font-bold mb-[20px]">Contact Us</h3>
+                    <div class="xl:w-3/12 mb-[20px] lg:mb-[0px] mt-[20px] xl:mt-[0px] px-[12px] lg:[px-0]  w-full">
+                        <h3 class="text-white md:text-[20px] text-[16px]  font-bold mb-[20px]">Contact Us</h3>
                         <ul>
                             <li class="mb-[15px] flex items-center flex-wrap">
                                 <div
@@ -1233,7 +1255,7 @@
                                             fill="#076280" />
                                     </svg>
                                 </div>
-                                <a href="#" class="text-[18px] text-white dm-sans">+91-93450 85552</a>
+                                <a href="#" class="md:text-[18px] text-[14px] text-white dm-sans">+91-93450 85552</a>
                             </li>
                             <li class="mb-[15px] flex items-center flex-wrap">
                                 <div
@@ -1246,7 +1268,7 @@
                                     </svg>
 
                                 </div>
-                                <a href="#" class="text-[18px] text-white dm-sans">info@kivihealth.com</a>
+                                <a href="#" class="md:text-[18px] text-[14px] text-white dm-sans">info@kivihealth.com</a>
                             </li>
                         </ul>
                     </div>

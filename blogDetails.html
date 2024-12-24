@@ -26,218 +26,303 @@
 </head>
 
 <main>
-        <!-- HEADER & BANNER SECTION -->
-        <section class="lg:h-screen md:h-[800px] sm:h-[500px] h-[400px] relative common-bg rounded-b-3xl z-50">
-            <!-- HEADER -->
-             <div class="container m-auto">
-                <header class="pt-[15px] mx-[12px] lg:mx-[0px]">
-                    <nav class="mx-auto bg-white rounded-full flex  items-center justify-between p-6 lg:px-8" aria-label="Global">
-                      <div class="flex lg:flex-1">
+    <!-- HEADER & BANNER SECTION -->
+    <section class="lg:h-screen md:h-[800px] sm:h-[500px] h-[400px] relative common-bg rounded-b-3xl z-50">
+        <!-- HEADER -->
+        <div class="container m-auto">
+            <header class="pt-[15px] mx-[12px] lg:mx-[0px]">
+                <nav class="mx-auto bg-white rounded-full flex  items-center justify-between p-6 lg:px-8"
+                    aria-label="Global">
+                    <div class="flex lg:flex-1">
                         <a href="#" class="-m-1.5 p-1.5">
-                          <span class="sr-only">Your Company</span>
-                          <img class="h-8 w-auto" src="assets/images/logo.png" alt="">
-                        </a>
-                      </div>
-                      <div class="flex lg:hidden">
-                        <button type="button" id="hamburgerButton" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
-                          <span class="sr-only">Open main menu</span>
-                          <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                          </svg>
-                        </button>
-                      </div>
-                      <div class="hidden lg:flex lg:gap-x-12">
-                        <ul class="flex gap-6">
-                            <li><a class="dm-sans text-[20px] text-gray-400" href="index.html">Home</a></li>
-                            <li><a class="dm-sans text-[20px] text-gray-400" href="">About Us</a></li>
-                            <li><a class="dm-sans text-[20px] text-gray-400" href="FAQs.html">FAQ's</a></li>
-                            <li><a class="dm-sans text-[20px] text-gray-400" href="Speciality.html">Speciality</a></li>
-                            <li><a class="dm-sans text-[20px] relative menu-hover common-color font-bold" href="Blogs.html">Blogs</a></li>
-                        </ul>
-                      </div>
-                      <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                        <div class="contact-btn">
-                            <button class="lg:px-[24px] px-[12px] dm-sans common-bg lg:px-[24px] px-[12px] lg:py-[12px] py-[6px]  rounded-full text-white">
-                            Contact Us <i class="fa-solid ms-3 fa-arrow-right-long"></i></button>
-                        </div>
-                      </div>
-                    </nav>
-                    <!-- Mobile Version -->
-                    <div id="mobileSidebar" class="hidden" role="dialog" aria-modal="true">
-                      <div class="fixed inset-0 z-10"></div>
-                      <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-                        <div class="flex items-center justify-between">
-                          <a href="#" class="-m-1.5 p-1.5">
                             <span class="sr-only">Your Company</span>
-                            <img class="h-8 w-auto" src="assets/images/logo.png" alt="logo">
-                          </a>
-                          <button type="button" id="closeButton" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-                            <span class="sr-only">Close menu</span>
-                            <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                            <a href="index.html"> <img class="md:w-auto w-[90px]  " src="assets/images/logo.png" alt=""></a>
+                        </a>
+                    </div>
+                    <div class="flex lg:hidden">
+                        <button type="button" id="hamburgerButton"
+                            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                            <span class="sr-only">Open main menu</span>
+                            <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" aria-hidden="true" data-slot="icon">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                             </svg>
-                          </button>
+                        </button>
+                    </div>
+                    <div class="hidden lg:flex lg:gap-x-12">
+                        <ul class="flex ">
+                            <li class="xl:pl-[50px] pl-[20px]"><a class="dm-sans text-[20px] text-gray-400" href="index.html">Home</a></li>
+                            <li class="xl:pl-[50px] pl-[20px]"><a class="dm-sans text-[20px] text-gray-400" href="aboutus.html">About Us</a></li>
+                            <li class="xl:pl-[50px] pl-[20px]"><a class="dm-sans text-[20px] text-gray-400" href="FAQs.html">FAQ's</a></li>
+                            <li class="xl:pl-[50px] pl-[20px]"><a class="dm-sans text-[20px] text-gray-400" href="Speciality.html">Speciality</a></li>
+                            <li class="xl:pl-[50px] pl-[20px]"><a class="dm-sans text-[20px] common-color relative menu-hover font-bold" href="Blogs.html">Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+                        <div class="contact-btn">
+                            <button
+                                class="lg:px-[24px] px-[12px] dm-sans common-bg lg:px-[24px] px-[12px] lg:py-[12px] py-[6px]  rounded-full text-white">
+                                <a href="contactus.html">Contact Us</a> <i
+                                    class="fa-solid ms-3 fa-arrow-right-long"></i></button>
+                        </div>
+                    </div>
+                </nav>
+                <!-- Mobile Version -->
+                <div id="mobileSidebar" class="hidden" role="dialog" aria-modal="true">
+                    <div class="fixed inset-0 z-10"></div>
+                    <div
+                        class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                        <div class="flex items-center justify-between">
+                            <a href="#" class="-m-1.5 p-1.5">
+                                <span class="sr-only">Your Company</span>
+                                <img class="h-8 w-auto" src="assets/images/logo.png" alt="logo">
+                            </a>
+                            <button type="button" id="closeButton" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                                <span class="sr-only">Close menu</span>
+                                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" aria-hidden="true" data-slot="icon">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                                </svg>
+                            </button>
                         </div>
                         <div class="mt-6 flow-root">
-                          <div class="-my-6 divide-y divide-gray-500/10">
-                            <div class="space-y-2 py-6">
-                              <div class="-mx-3">
-                              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Home</a>
-                              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">About Us</a>
-                              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">FAQs</a>
-                              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Speciality</a>
-                              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Blogs</a>
-                            </div>
-                            <div class="py-6">
-                                <div class="contact-btn">
-                                    <button class="lg:px-[24px] px-[12px] dm-sans common-bg lg:px-[24px] px-[12px] lg:py-[12px] py-[6px]  rounded-full text-white">
-                                    Contact Us <i class="fa-solid ms-3 fa-arrow-right-long"></i></button>
+                            <div class="-my-6 divide-y divide-gray-500/10">
+                                <div class="space-y-2 py-6">
+                                    <div class="-mx-3">
+                                        <a href="index.html"
+                                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold common-color hover:bg-gray-50">Home</a>
+                                        <a href="aboutus.html"
+                                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">About
+                                            Us</a>
+                                        <a href="FAQs.html"
+                                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">FAQs</a>
+                                        <a href="Speciality.html"
+                                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Speciality</a>
+                                        <a href="Blogs.html"
+                                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Blogs</a>
+                                    </div>
+                                    <div class="py-6">
+                                        <div class="contact-btn">
+                                            <button
+                                                class="lg:px-[24px] px-[12px] dm-sans common-bg lg:px-[24px] px-[12px] lg:py-[12px] py-[6px]  rounded-full text-white">
+                                                <a href="contactus.html">Contact Us</a> <i
+                                                    class="fa-solid ms-3 fa-arrow-right-long"></i></button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </header> 
-                <div class="banner mx-[12px] lg:mx-[0px]  md:pt-[250px] pt-[100px]  flex items-center justify-start ">
-                    <div class="banner-content">
-                        <p class="md:text-[20px] text-[14px] text-white dm-sans text-bold wow animate__animated animate__fadeInUp">Home | <span>Blog</span></p>
-                        <h1 class="md:text-[70px] text-[40px] calistoga text-white md:mb-[30px] mb-[15px] wow animate__animated animate__headShake">Blog</h1>
-                        <div class="questionss flex gap-4">
-                            <h4 class="md:text-[26px] text-[18px] text-white font-medium">Our Latest Blog & News </h4>
-                            <img src="./assets/images/Vector.png" class="md:w-[auto] w-[20%]" alt="beat">
                         </div>
                     </div>
+            </header>
+            <div class="banner mx-[12px] lg:mx-[0px]  md:pt-[250px] pt-[100px]  flex items-center justify-start ">
+                <div class="banner-content">
+                    <p class="md:text-[20px] text-[14px] text-white dm-sans text-bold wow animate__animated animate__fadeInUp">
+                        Home | <span>Blog</span></p>
+                        <h1 class="md:text-[70px] md:text-[40px] text-[24px] calistoga text-white md:mb-[30px] mb-[15px] wow animate__animated animate__headShake">
+                        Blog</h1>
+                    <div class="questionss flex gap-4">
+                        <h4 class="md:text-[26px] md:text-[18px] text-[12px] text-white font-medium">Our Latest Blog & News </h4>
+                        <img src="./assets/images/Vector.png" class="md:w-[auto] w-[20%]" alt="beat">
+                    </div>
                 </div>
-                <div class="banner-img absolute xl:right-[100px] lg:w-[auto] w-[60%] right-[0px] bottom-[0px]">
-                    <img src="./assets/images/FAQ-banner.png" alt="banner">
-                </div>
-             </div>
-        </section>
-        <!-- HEADER & BANNER SECTION OVER -->
+            </div>
+            <div class="banner-img absolute xl:right-[100px] lg:w-[auto] w-[60%] md:right-[0px] right-[-5%] bottom-[0px]">
+                <img src="./assets/images/FAQ-banner.png" alt="banner">
+            </div>
+        </div>
+    </section>
+    <!-- HEADER & BANNER SECTION OVER -->
 
-        <!-- BLOG SECTION START -->
-        <section class="lg:pt-[160px] pt-[50px] relative">
-            <div class="side-img absolute left-0 bottom-0">
-                <img src="./assets/images/pngwing 7.png" alt="wing" >
-            </div>
-            <div class="side-img absolute right-0 top-0">
-                <img src="./assets/images/pngwing 6.png" alt="wing" >
-            </div>
-            <div class="container m-auto">
-                <div class="meeting mx-[12px] relative p-[50px] rounded-3xl border border-[#199CC6] mb-[30px]">
-                    <div class="button bg-white floating p-[12px] rounded-lg absolute left-[19px] shadow-lg bottom-[20px] z-50  ">   
-                        <button class="text-[18px] dm-sans common-bg"  style="-webkit-background-clip: text;-webkit-text-fill-color: transparent;"> Doctor Meeting</button>
-                    </div>
-                    <img src="assets/images/blog-img.png" class="m-auto scale-105" alt="blog">
+    <!-- BLOG SECTION START -->
+    <section class="lg:pt-[160px] pt-[50px] relative">
+        <div class="side-img absolute left-0 bottom-0">
+            <img src="./assets/images/pngwing 7.png" alt="wing">
+        </div>
+        <div class="side-img absolute right-0 top-0">
+            <img src="./assets/images/pngwing 6.png" alt="wing">
+        </div>
+        <div class="container m-auto">
+            <div class="meeting mx-[12px] relative p-[50px] rounded-3xl border border-[#199CC6] mb-[30px]">
+                <div
+                    class="button bg-white floating p-[12px] rounded-lg absolute left-[19px] shadow-lg bottom-[20px] z-50  ">
+                    <button class="text-[18px] dm-sans common-bg"
+                        style="-webkit-background-clip: text;-webkit-text-fill-color: transparent;"> Doctor
+                        Meeting</button>
                 </div>
-                <div class="content px-[12px]">
-                    <h3 class="text-[#333333] mb-[20px] text-[25px] dm-sans font-medium  wow animate__animated animate__slideInDown">Navigating the World of Telemedicine: A Comprehensive.</h3>
-                    <p class="text-[#A3A3A3] mb-[10px] text-[18px] dm-sans wow animate__animated animate__fadeInUp">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purposeb page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purposeoseb page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various  editors now use Lorem Ipsum as their default model text, and a search for 'lorem ip</p>
-                    <div class="flex gap-3 items-center wow animate__animated animate__fadeInUp">
-                        <div class="author">
-                            <h4 class="text-[#A3A3A3] text-[18px] dm-sans"><i class="fa-regular fa-user me-[10px] text-[#06617E] text-[20px]"></i>By admin</h4>
-                        </div>
-                        <div class="date">
-                            <h4 class="text-[#A3A3A3] text-[18px] dm-sans"><i class="fa-solid fa-calendar-days me-[10px] text-[#06617E] text-[20px]"></i>23 Oct, 2023</h4>
-                        </div>
+                <img src="assets/images/blog-img.png" class="m-auto scale-105" alt="blog">
+            </div>
+            <div class="content px-[12px]">
+                <h3
+                    class="text-[#333333] mb-[20px] text-[25px] dm-sans font-medium  wow animate__animated animate__slideInDown">
+                    Navigating the World of Telemedicine: A Comprehensive.</h3>
+                <p class="text-[#A3A3A3] mb-[10px] text-[18px] dm-sans wow animate__animated animate__fadeInUp">It is a
+                    long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using 'Content here, content here', making it look like
+                    readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                    default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                    infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purposeb
+                    page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
+                    uncover many web sites still in their infancy. Various versions have evolved over the years,
+                    sometimes by accident, sometimes on purposeoseb page editors now use Lorem Ipsum as their default
+                    model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                    Various editors now use Lorem Ipsum as their default model text, and a search for 'lorem ip</p>
+                <div class="flex gap-3 items-center wow animate__animated animate__fadeInUp">
+                    <div class="author">
+                        <h4 class="text-[#A3A3A3] text-[18px] dm-sans"><i
+                                class="fa-regular fa-user me-[10px] text-[#06617E] text-[20px]"></i>By admin</h4>
+                    </div>
+                    <div class="date">
+                        <h4 class="text-[#A3A3A3] text-[18px] dm-sans"><i
+                                class="fa-solid fa-calendar-days me-[10px] text-[#06617E] text-[20px]"></i>23 Oct, 2023
+                        </h4>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- RELATED BLOGS & NEWS -->
-        <section class="lg:pt-[160px] pt-[50px] mb-[50px]">
-            <div class="container m-auto">
-                <div class="heading px-[12px] mb-[50px]">
-                    <h2 class="lg:text-[40px] sm:text-[30px] text-[24px] text-center  calistoga common-bg mb-2.5 wow animate__animated animate__slideInDown"
+    <!-- RELATED BLOGS & NEWS -->
+    <section class="lg:pt-[160px] pt-[50px] mb-[50px]">
+        <div class="container m-auto">
+            <div class="heading px-[12px] mb-[50px]">
+                <h2 class="lg:text-[40px] sm:text-[30px] text-[24px] text-center  calistoga common-bg mb-2.5 wow animate__animated animate__slideInDown"
                     style="-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Related Blog & News</h2>
-                    <p class="text-neutral-400 text-center lg:w-7/12 text-center m-auto  lg:text-xl text-[18px] dm-sans wow animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ipsum neque, suscipit sit amet massa eu, pretium dictum massa.</p>
-                </div>
-                <div class="flex flex-wrap">
-                    <div class="lg:w-2/6 md:w-3/6 w-full lg:order-1 order-2 mb-[24px]  px-[12px]">
-                        <div class="blogs bg-[#E3F3FF] xl:p-[29px] p-[18px] rounded-3xl ">
-                            <div class="blog-content  wow animate__animated animate__fadeInDown gap-3 flex items-center  border-b border-[rgba(127,127,127,0.2)] py-[20px]">
-                                <div class="blog-img rounded-3xl">
-                                    <img src="assets/images/blogs/adult-taking-care-baby-weight 3.png" alt="adult-taking-care-baby-weight">
-                                </div>
-                                <div class="content">
-                                    <h3 class="text-[#333333] xl:text-[20px] md:text-[16px] mb-[5px] dm-sans">Pediatric Infectious Diseas</h3>
-                                    <p class="text-neutral-400   m-auto  xl:text-xl lg:text-[14px] dm-sans">25 May, 2023</p>
-                                    <button class="text-[#0F789B] b-tranparent dm-sans font-bold">See Details <i
+                <p
+                    class="text-neutral-400 text-center lg:w-7/12 text-center m-auto  lg:text-xl text-[18px] dm-sans wow animate__animated animate__fadeInUp">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ipsum neque, suscipit sit amet
+                    massa eu, pretium dictum massa.</p>
+            </div>
+            <div class="flex flex-wrap">
+                <div class="lg:w-2/6 md:w-3/6 w-full lg:order-1 order-2 mb-[24px]  px-[12px]">
+                    <div class="blogs bg-[#E3F3FF] xl:p-[29px] p-[18px] rounded-3xl ">
+                        <div
+                            class="blog-content  wow animate__animated animate__fadeInDown gap-3 flex items-center  border-b border-[rgba(127,127,127,0.2)] py-[20px]">
+                            <div class="blog-img rounded-3xl">
+                                <img src="assets/images/blogs/adult-taking-care-baby-weight 3.png"
+                                    alt="adult-taking-care-baby-weight">
+                            </div>
+                            <div class="content">
+                                <h3 class="text-[#333333] xl:text-[20px] md:text-[16px] mb-[5px] dm-sans">Pediatric
+                                    Infectious Diseas</h3>
+                                <p class="text-neutral-400   m-auto  xl:text-xl lg:text-[14px] dm-sans">25 May, 2023</p>
+                                <button class="text-[#0F789B] b-tranparent dm-sans font-bold">See Details <i
                                         class="fa-solid ms-3  fa-arrow-right-long"></i></button>
-                                </div>
                             </div>
-                            <div class="blog-content  wow animate__animated animate__fadeInDown gap-3 flex items-center  border-b border-[rgba(127,127,127,0.2)] py-[20px]"data-wow-delay="0.25s">
-                                <div class="blog-img rounded-3xl">
-                                    <img src="assets/images/blogs/adult-taking-care-baby-weight 3 (1).png" alt="adult-taking-care-baby-weight">
-                                </div>
-                                <div class="content">
-                                    <h3 class="text-[#333333] xl:text-[20px] md:text-[16px] mb-[5px] dm-sans">Fellowship in Neonatology</h3>
-                                    <p class="text-neutral-400   m-auto  xl:text-xl lg:text-[14px] dm-sans">25 May, 2023</p>
-                                    <button class="text-[#0F789B] b-tranparent dm-sans font-bold">See Details <i
+                        </div>
+                        <div class="blog-content  wow animate__animated animate__fadeInDown gap-3 flex items-center  border-b border-[rgba(127,127,127,0.2)] py-[20px]"
+                            data-wow-delay="0.25s">
+                            <div class="blog-img rounded-3xl">
+                                <img src="assets/images/blogs/adult-taking-care-baby-weight 3 (1).png"
+                                    alt="adult-taking-care-baby-weight">
+                            </div>
+                            <div class="content">
+                                <h3 class="text-[#333333] xl:text-[20px] md:text-[16px] mb-[5px] dm-sans">Fellowship in
+                                    Neonatology</h3>
+                                <p class="text-neutral-400   m-auto  xl:text-xl lg:text-[14px] dm-sans">25 May, 2023</p>
+                                <button class="text-[#0F789B] b-tranparent dm-sans font-bold">See Details <i
                                         class="fa-solid ms-3  fa-arrow-right-long"></i></button>
-                                </div>
                             </div>
-                            <div class="blog-content  wow animate__animated animate__fadeInDown gap-3 flex items-center  border-b border-[rgba(127,127,127,0.2)] py-[20px]"data-wow-delay="0.5s">
-                                <div class="blog-img rounded-3xl">
-                                    <img src="assets/images/blogs/adult-taking-care-baby-weight 3 (2).png" alt="adult-taking-care-baby-weight">
-                                </div>
-                                <div class="content">
-                                    <h3 class="text-[#333333] xl:text-[20px] md:text-[16px] mb-[5px] dm-sans">A Great things to share</h3>
-                                    <p class="text-neutral-400   m-auto  xl:text-xl lg:text-[14px] dm-sans">25 May, 2023</p>
-                                    <button class="text-[#0F789B] b-tranparent dm-sans font-bold">See Details <i
-                                        class="fa-solid ms-3 fa-arrow-right-long"></i></button>
-                                </div>
+                        </div>
+                        <div class="blog-content  wow animate__animated animate__fadeInDown gap-3 flex items-center  border-b border-[rgba(127,127,127,0.2)] py-[20px]"
+                            data-wow-delay="0.5s">
+                            <div class="blog-img rounded-3xl">
+                                <img src="assets/images/blogs/adult-taking-care-baby-weight 3 (2).png"
+                                    alt="adult-taking-care-baby-weight">
                             </div>
-                            <div class="blog-content  wow animate__animated animate__fadeInDown gap-3 flex items-center  border-b border-[rgba(127,127,127,0.2)] py-[20px]"data-wow-delay="0.75s">
-                                <div class="blog-img rounded-3xl">
-                                    <img src="assets/images/blogs/adult-taking-care-baby-weight 3 (3).png" alt="adult-taking-care-baby-weight">
-                                </div>
-                                <div class="content">
-                                    <h3 class="text-[#333333] xl:text-[20px] md:text-[16px] mb-[5px] dm-sans">Pediatric Infectious Diseas</h3>
-                                    <p class="text-neutral-400   m-auto  xl:text-xl lg:text-[14px] dm-sans">25 May, 2023</p>
-                                    <button class="text-[#0F789B] b-tranparent dm-sans font-bold">See Details <i
+                            <div class="content">
+                                <h3 class="text-[#333333] xl:text-[20px] md:text-[16px] mb-[5px] dm-sans">A Great things
+                                    to share</h3>
+                                <p class="text-neutral-400   m-auto  xl:text-xl lg:text-[14px] dm-sans">25 May, 2023</p>
+                                <button class="text-[#0F789B] b-tranparent dm-sans font-bold">See Details <i
                                         class="fa-solid ms-3 fa-arrow-right-long"></i></button>
-                                </div>
                             </div>
-                            <div class="blog-content  wow animate__animated animate__fadeInDown gap-3 flex items-center  border-b border-[rgba(127,127,127,0.2)] py-[20px]"data-wow-delay="1.05s">
-                                <div class="blog-img rounded-3xl">
-                                    <img src="assets/images/blogs/adult-taking-care-baby-weight 3 (4).png   " alt="adult-taking-care-baby-weight">
-                                </div>
-                                <div class="content">
-                                    <h3 class="text-[#333333] xl:text-[20px] md:text-[16px] mb-[5px] dm-sans">Laboratory Department</h3>
-                                    <p class="text-neutral-400   m-auto  xl:text-xl lg:text-[14px] dm-sans">25 May, 2023</p>
-                                    <button class="text-[#0F789B] b-tranparent dm-sans font-bold">See Details <i
+                        </div>
+                        <div class="blog-content  wow animate__animated animate__fadeInDown gap-3 flex items-center  border-b border-[rgba(127,127,127,0.2)] py-[20px]"
+                            data-wow-delay="0.75s">
+                            <div class="blog-img rounded-3xl">
+                                <img src="assets/images/blogs/adult-taking-care-baby-weight 3 (3).png"
+                                    alt="adult-taking-care-baby-weight">
+                            </div>
+                            <div class="content">
+                                <h3 class="text-[#333333] xl:text-[20px] md:text-[16px] mb-[5px] dm-sans">Pediatric
+                                    Infectious Diseas</h3>
+                                <p class="text-neutral-400   m-auto  xl:text-xl lg:text-[14px] dm-sans">25 May, 2023</p>
+                                <button class="text-[#0F789B] b-tranparent dm-sans font-bold">See Details <i
                                         class="fa-solid ms-3 fa-arrow-right-long"></i></button>
-                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-content  wow animate__animated animate__fadeInDown gap-3 flex items-center  border-b border-[rgba(127,127,127,0.2)] py-[20px]"
+                            data-wow-delay="1.05s">
+                            <div class="blog-img rounded-3xl">
+                                <img src="assets/images/blogs/adult-taking-care-baby-weight 3 (4).png   "
+                                    alt="adult-taking-care-baby-weight">
+                            </div>
+                            <div class="content">
+                                <h3 class="text-[#333333] xl:text-[20px] md:text-[16px] mb-[5px] dm-sans">Laboratory
+                                    Department</h3>
+                                <p class="text-neutral-400   m-auto  xl:text-xl lg:text-[14px] dm-sans">25 May, 2023</p>
+                                <button class="text-[#0F789B] b-tranparent dm-sans font-bold">See Details <i
+                                        class="fa-solid ms-3 fa-arrow-right-long"></i></button>
                             </div>
                         </div>
                     </div>
-                    <div class="lg:w-4/6 md:w-3/6 w-full lg:order-2 order-1 mb-[24px] lg:px-[12px]">
-                        <div class="flex flex-wrap">
-                            <div class="w-3/6 px-[12px]">
-                                <div class="operation-1 overflow-hidden rounded-3xl">
-                                    <img src="assets/images/operation-1.png"  class="scale-125"  alt="operation-1">
-                                </div>
+                </div>
+                <div class="lg:w-4/6 md:w-3/6 w-full lg:order-2 order-1 mb-[24px] lg:px-[12px]">
+                    <div class="flex flex-wrap">
+                        <div class="w-3/6 px-[12px]">
+                            <div class="operation-1 overflow-hidden rounded-3xl">
+                                <img src="assets/images/operation-1.png" class="scale-125" alt="operation-1">
                             </div>
-                            <div class="w-3/6 px-[12px]">
-                                <div class="operation-2 overflow-hidden rounded-3xl">
-                                    <img src="assets/images/operation-2.png"   class="scale-125" alt="operation-1">
-                                </div>
-                            </div>
-                            <div class="w-full mt-[20px] px-[12px]">
-                                <div class="operation-3 overflow-hidden rounded-3xl">
-                                    <img src="assets/images/operation-3.png" class="scale-125"  alt="operation-1">
-                                </div>
-                            </div>
-
                         </div>
+                        <div class="w-3/6 px-[12px]">
+                            <div class="operation-2 overflow-hidden rounded-3xl">
+                                <img src="assets/images/operation-2.png" class="scale-125" alt="operation-1">
+                            </div>
+                        </div>
+                        <div class="w-full mt-[20px] px-[12px]">
+                            <div class="operation-3 overflow-hidden rounded-3xl">
+                                <img src="assets/images/operation-3.png" class="scale-125" alt="operation-1">
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
-           
+        </div>
+
+    </section>
+
+         <!-- CONTACT US SECTION START -->
+         <section class="lg:py-[160px] py-[50px]">
+            <div class="container m-auto relative">
+                 <div class="laptop lg:absolute lg:right-[0px] right-[-5%] bottom-[100%]  lg:bottom-[0px]   ">
+                <img src="./assets/images/contact-person.png" class="lg:w-auto w-[70%] m-auto" alt="laptop">
+            </div>
+
+                <div class="prescription lg:mx-[0px] mx-[12px] lg:p-[50px] p-[20px] z-50  common-bg rounded-[20px] relative">
+                    <div class="prescription-img absolute left-[10px] -z-[20] top-[20px]">
+                        <img src="./assets/images/integration-design.png" alt="integration-design">
+                    </div>
+                   
+                    <div>
+                        <h2 class="text-white dm-sans text-[40px] font-bold mb-[15px]">Get In Touch
+                        </h2>
+                        <p class="mb-[40px] text-[18px] lg:w-7/12 dm-sans text-white  wow animate__animated animate__fadeInUp"
+                            data-wow-delay="0.25s">The point of using Lorem Ipsum is
+                            that it has a more-or-less normal distribution of letters, as opposed to using 'Content
+                            here, content here', making it look like readable English. </p>
+                    </div>
+                    <a href="contactus.html"><button
+                        class="white-button transition dm-sans border-2 lg:px-[24px] lg:py-[12px] px-[12px] py-[6px] rounded-full text-white"><a
+                            href="blogDetails.html">Contact Us</a> <i
+                            class="fa-solid ms-3 fa-arrow-right-long"></i></button></a>
+                </div>
+
+            </div>
         </section>
+        <!-- CONTACT SECTION END -->
 
     <!-- FOOTER SECTION START -->
     <footer class="pt-[40px] common-bg relative">
@@ -246,14 +331,14 @@
         </div>
         <div class="container m-auto">
             <div class="flex flex-wrap">
-                <div class="lg:w-4/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] sm-2/4 w-full">
-                    <div class="logo mb-[10px]"><img src="assets/images/white-logo.png" alt="logo"></div>
+                <div class="xl:w-3/12 md:w-6/12 w-full  mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] ">
+                    <div class="logo mb-[10px] "><img src="assets/images/white-logo.png" class="m-auto md:m-0" alt="logo"></div>
                     <div class="footer-content">
-                        <p class="text-white dm-sans text-[18px] wow animate__animated animate__fadeInUp"
+                        <p class="text-white dm-sans text-[18px] text-center md:text-start wow animate__animated animate__fadeInUp"
                             data-wow-delay="0.25s">established fact that a reader will be distracted
                             by the readable content of a page when looking at its layout. The point of using Lorem
-                            Ipsum is that it has .</p>
-                        <div class="icons flex mt-[20px]">
+                            Ipsum is that it has</p>
+                        <div class="icons flex md:justify-start justify-center mt-[20px]">
                             <div
                                 class="me-[10px] w-[40px] h-[40px] bg-white flex justify-center items-center rounded-full">
                                 <svg width="20" height="17" viewBox="0 0 20 17" fill="none"
@@ -316,50 +401,55 @@
                         </div>
                     </div>
                 </div>
-                <div class="lg:w-2/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] sm:w-2/4 w-full">
-                    <h3 class="text-white text-[20px] font-bold mb-[20px]">Quick Links</h3>
+                <div class="xl:w-2/12 md:w-2/12 w-4/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] ">
+                    <h3 class="text-white md:text-[20px] text-[16px]  font-bold mb-[20px]">Quick Links</h3>
                     <ul class="footer-menu">
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">Pricing</a>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href=""
+                                class="md:text-[18px] text-[14px]  text-white dm-sans ">Pricing</a></li>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href=""
+                                class="md:text-[18px] text-[14px]  text-white dm-sans ">Testimonials</a>
                         </li>
-                        <li class="mb-[15px] relative"><a href=""
-                                class="text-[18px] text-white dm-sans ">Testimonials</a>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="FAQs.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">FAQS</a>
                         </li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">FAQS</a></li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">About Us</a>
-                        </li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">Cast Study</a>
-                        </li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">Contact Us</a>
-                        </li>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="aboutus.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">About
+                                Us</a></li>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="blogDetails.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">Cast
+                                Study</a></li>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="contactus.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">Contact
+                                Us</a></li>
                     </ul>
                 </div>
-                <div class="lg:w-2/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] sm:w-2/4 w-full">
-                    <h3 class="text-white text-[20px] font-bold mb-[20px]">Pages</h3>
+                <div class="xl:w-2/12 md:w-2/12 w-4/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] ">
+                    <h3 class="text-white md:text-[20px] text-[16px]  font-bold mb-[20px]">Pages</h3>
                     <ul class="footer-menu">
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">Home</a></li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">About Us</a>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="index.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">Home</a>
                         </li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">FAQS</a></li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">Speciality</a>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="aboutus.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">About
+                                Us</a></li>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="FAQs.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">FAQS</a>
                         </li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">Blog</a></li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">Contact Us</a>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="Speciality.html"
+                                class="md:text-[18px] text-[14px]  text-white dm-sans ">Speciality</a></li>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="Blogs.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">Blog</a>
                         </li>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="contactus.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">Contact
+                                Us</a></li>
                     </ul>
                 </div>
-                <div class="lg:w-2/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] sm:w-2/4 w-full">
-                    <h3 class="text-white text-[20px] font-bold mb-[20px]">Support</h3>
+                <div class="xl:w-2/12 md:w-2/12 w-4/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] ">
+                    <h3 class="text-white md:text-[20px] text-[16px]  font-bold mb-[20px]">Support</h3>
                     <ul class="footer-menu">
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">Privacy
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="#" class="md:text-[18px] text-[14px]  text-white dm-sans ">Privacy
                                 policy</a>
                         </li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">Terms &
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="#" class="md:text-[18px] text-[14px]  text-white dm-sans ">Terms &
                                 Condition</a></li>
-                        <li class="mb-[15px] relative"><a href="" class="text-[18px] text-white dm-sans ">FAQS</a></li>
+                        <li class="md:mb-[15px] mb-[10px] relative"><a href="FAQs.html" class="md:text-[18px] text-[14px]  text-white dm-sans ">FAQS</a>
+                        </li>
                     </ul>
                 </div>
-                <div class="lg:w-2/12 mb-[20px] lg:mb-[0px] px-[12px] lg:[px-0] sm:w-2/4 w-full">
-                    <h3 class="text-white text-[20px] font-bold mb-[20px]">Contact Us</h3>
+                <div class="xl:w-3/12 mb-[20px] lg:mb-[0px] mt-[20px] xl:mt-[0px] px-[12px] lg:[px-0]  w-full">
+                    <h3 class="text-white md:text-[20px] text-[16px]  font-bold mb-[20px]">Contact Us</h3>
                     <ul>
                         <li class="mb-[15px] flex items-center flex-wrap">
                             <div
@@ -371,7 +461,7 @@
                                         fill="#076280" />
                                 </svg>
                             </div>
-                            <a href="#" class="text-[18px] text-white dm-sans">+91-93450 85552</a>
+                            <a href="#" class="md:text-[18px] text-[14px] text-white dm-sans">+91-93450 85552</a>
                         </li>
                         <li class="mb-[15px] flex items-center flex-wrap">
                             <div
@@ -384,7 +474,7 @@
                                 </svg>
 
                             </div>
-                            <a href="#" class="text-[18px] text-white dm-sans">info@kivihealth.com</a>
+                            <a href="#" class="md:text-[18px] text-[14px] text-white dm-sans">info@kivihealth.com</a>
                         </li>
                     </ul>
                 </div>
@@ -421,60 +511,60 @@
 <script>
     new WOW().init();
 </script>
-    <script>
-$(document).ready(function () {
-            // When the hamburger button is clicked
-            $("#hamburgerButton").click(function () {
-                // Show the mobile sidebar
-                $("#mobileSidebar").removeClass("hidden");
-            });
-
-            // When the close button is clicked
-            $("#closeButton").click(function () {
-                // Hide the mobile sidebar
-                $("#mobileSidebar").addClass("hidden");
-            });
+<script>
+    $(document).ready(function () {
+        // When the hamburger button is clicked
+        $("#hamburgerButton").click(function () {
+            // Show the mobile sidebar
+            $("#mobileSidebar").removeClass("hidden");
         });
 
+        // When the close button is clicked
+        $("#closeButton").click(function () {
+            // Hide the mobile sidebar
+            $("#mobileSidebar").addClass("hidden");
+        });
+    });
 
 
 
-         document.querySelectorAll('.single-open .panel-header').forEach(header => {
-            header.addEventListener('click', () => {
-                const parent = header.parentElement;
-                const container = parent.parentElement;
 
-                parent.classList.toggle('active');
-                const heading = header.querySelector('.faq-question');
-                const arrow = header.querySelector('.arrow i');
+    document.querySelectorAll('.single-open .panel-header').forEach(header => {
+        header.addEventListener('click', () => {
+            const parent = header.parentElement;
+            const container = parent.parentElement;
 
-                if (parent.classList.contains('active')) {
-                    // If active, change to right arrow
-                    arrow.classList.add('fa-angle-down');
-                    arrow.classList.remove('fa-angle-right');
-                    heading.classList.remove('text-[#9a9a9a]');
-                    heading.classList.add('text-[#333333]');
-                    
-                } else {
-                    // If not active, change back to down arrow
-                    arrow.classList.add('fa-angle-right');
-                    arrow.classList.remove('fa-angle-down');
-                    heading.classList.add('text-[#9a9a9a]');
-                    heading.classList.remove('text-[#333333]');
+            parent.classList.toggle('active');
+            const heading = header.querySelector('.faq-question');
+            const arrow = header.querySelector('.arrow i');
+
+            if (parent.classList.contains('active')) {
+                // If active, change to right arrow
+                arrow.classList.add('fa-angle-down');
+                arrow.classList.remove('fa-angle-right');
+                heading.classList.remove('text-[#9a9a9a]');
+                heading.classList.add('text-[#333333]');
+
+            } else {
+                // If not active, change back to down arrow
+                arrow.classList.add('fa-angle-right');
+                arrow.classList.remove('fa-angle-down');
+                heading.classList.add('text-[#9a9a9a]');
+                heading.classList.remove('text-[#333333]');
+            }
+
+            // Close other panels (if needed)
+            container.querySelectorAll('.panel').forEach(panel => {
+                if (panel !== parent) {
+                    panel.classList.remove('active');
+                    const otherArrow = panel.querySelector('.arrow i');
+                    otherArrow.classList.remove('fa-angle-right');
+                    otherArrow.classList.add('fa-angle-down');
                 }
-
-                // Close other panels (if needed)
-                container.querySelectorAll('.panel').forEach(panel => {
-                    if (panel !== parent) {
-                        panel.classList.remove('active');
-                        const otherArrow = panel.querySelector('.arrow i');
-                        otherArrow.classList.remove('fa-angle-right');
-                        otherArrow.classList.add('fa-angle-down');
-                    }
-                });
             });
         });
-    </script>
+    });
+</script>
 </body>
 
 </html>
